@@ -1,26 +1,103 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="WonyoungRecommend，网站内容即将上线。">
-    <title>WonyoungRecommend</title>
-    <style>
-      :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
-      body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #faf8fb; color: #302535; }
-      main { padding: 2rem; text-align: center; }
-      h1 { font-size: clamp(1.5rem, 6vw, 3rem); letter-spacing: -.04em; overflow-wrap: anywhere; }
-      p { color: #706575; line-height: 1.7; }
-      @media (prefers-color-scheme: dark) {
-        body { background: #18131c; color: #f7effa; }
-        p { color: #b9aebe; }
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <h1>WonyoungRecommend</h1>
-      <p>网站内容即将上线。</p>
-    </main>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf7f2">
+  <meta name="description" content="一眼心动，不止一面。张元英 WONYOUNG 中文安利站：认识 IVE 的张元英，收藏官方 MV、舞台直拍与团综，找到你的入坑瞬间。">
+  <meta property="og:title" content="Dear Wonyoung · 张元英安利站">
+  <meta property="og:description" content="把她的闪耀，分享给你。人物介绍、必看清单与生日约定。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://20040831.xyz/">
+  <meta property="og:image" content="https://20040831.xyz/assets/wonyoung-portrait.webp">
+  <link rel="canonical" href="https://20040831.xyz/">
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+  <title>Dear Wonyoung · 张元英安利站</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="header"><div class="header-inner wrap">
+    <a class="brand" href="#home" aria-label="Dear Wonyoung 首页"><span class="brand-flower" aria-hidden="true">✳</span><span>DEAR<br>WONYOUNG<span class="brand-dot">.</span></span></a>
+    <nav aria-label="主导航"><a href="#about">初次见面</a><a href="#watch">必看清单</a><a href="#birthday">生日约定</a></nav>
+    <a class="saved-link" href="#watch" data-show-saved hidden><span aria-hidden="true">♡</span> 我的收藏 <span data-saved-count>0</span></a>
+  </div></header>
+  <main id="main">
+    <section class="hero wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-star" aria-hidden="true">✦</span> A LITTLE SPACE, A LOT OF LOVE</p>
+        <p class="hero-script" lang="en">Dear Wonyoung,</p>
+        <h1 id="hero-title">一眼心动，<br>不止<span class="underlined">一面</span>。</h1>
+        <p class="hero-description">是舞台上闪闪发光的张元英，<br>也是镜头外让人忍不住微笑的元英。<br>想把她的闪耀，分享给你。</p>
+        <div class="hero-actions"><a class="button primary" href="#watch">从这里开始喜欢她 <span aria-hidden="true">↗</span></a><a class="text-link" href="#about">先认识一下 <span aria-hidden="true">→</span></a></div>
+        <div class="hero-note"><span aria-hidden="true">♡</span><p>献给初次相遇的你，也献给一直喜欢她的你。<br><span>张元英中文安利站 · FAN-MADE WITH LOVE</span></p></div>
+      </div>
+      <figure class="hero-photo">
+        <div class="photo-frame"><img src="./assets/wonyoung-portrait.webp" width="1100" height="1467" alt="张元英在公开活动中微笑，双手比出爱心" fetchpriority="high"><span class="photo-label">WONYOUNG <span>장원영</span></span></div>
+        <div class="photo-sticker" aria-hidden="true">our<br><em>shining</em><br>girl ✦</div>
+        <figcaption><span>01 / A MOMENT TO FALL IN LOVE</span><a href="#credits">PHOTO: TEN ASIA ↗</a></figcaption>
+        <span class="photo-spark" aria-hidden="true">✧</span>
+      </figure>
+    </section>
+    <div class="ribbon" aria-hidden="true"><div>WONYOUNG <span>✳</span> 张元英 <span>♡</span> SHINE IN YOUR OWN WAY <span>✳</span> 장원영 <span>♡</span> WONYOUNG <span>✳</span> 张元英 <span>♡</span></div></div>
+    <section class="about wrap section" id="about" aria-labelledby="about-title">
+      <div class="section-intro"><p class="eyebrow">01 / HELLO, WONYOUNG</p><h2 id="about-title">先从她的名字开始。</h2><p>不需要懂所有梗，也不用补完所有视频。<br>先认识她，再慢慢找到你喜欢的那一面。</p></div>
+      <div class="profile-card"><div class="profile-heading"><div><p class="profile-korean" lang="ko">장원영</p><h3>张元英 <span>JANG WONYOUNG</span></h3></div><span class="profile-flower" aria-hidden="true">✳</span></div>
+        <dl class="profile-facts"><div><dt>生日</dt><dd>2004.08.31</dd></div><div><dt>所属组合</dt><dd>IVE</dd></div><div><dt>组合出道</dt><dd>2021.12.01</dd></div><div><dt>所属公司</dt><dd>STARSHIP</dd></div></dl>
+        <p class="profile-description">张元英是韩国女子组合 IVE 的成员。比起急着给她贴标签，更推荐你打开一支 MV、一段个人直拍，或者一期团综，亲自感受她。</p>
+        <a class="source-link" href="https://ive-official.jp/mob/pageShw.php?cd=profile&amp;site=DIVE" target="_blank" rel="noopener noreferrer">资料来源：IVE 日本官方网站 ↗</a>
+      </div>
+    </section>
+    <section class="guide wrap" aria-labelledby="guide-title">
+      <div class="guide-title"><span class="eyebrow">THE FIRST THREE STEPS</span><h2 id="guide-title">第一次来？这样看就好。</h2></div>
+      <div class="guide-grid">
+        <a href="https://www.youtube.com/watch?v=Y8JFxS1HlDo" target="_blank" rel="noopener noreferrer" class="guide-item"><span class="step-number">01</span><div><h3>先听一首歌</h3><p>从《LOVE DIVE》开始，感受 IVE 的音乐与镜头魅力。</p><span class="guide-action">看官方 MV <span aria-hidden="true">↗</span></span></div></a>
+        <a href="https://www.youtube.com/watch?v=-upaPSCKQeg" target="_blank" rel="noopener noreferrer" class="guide-item"><span class="step-number">02</span><div><h3>把镜头留给她</h3><p>看《I AM》个人直拍，留意她的表情、动作和舞台节奏。</p><span class="guide-action">看元英直拍 <span aria-hidden="true">↗</span></span></div></a>
+        <a href="https://www.youtube.com/watch?v=fIGHHs5Uuyk" target="_blank" rel="noopener noreferrer" class="guide-item"><span class="step-number">03</span><div><h3>认识舞台以外的她</h3><p>打开《1,2,3 IVE》，一起看看成员们相处时的轻松日常。</p><span class="guide-action">看官方团综 <span aria-hidden="true">↗</span></span></div></a>
+      </div>
+    </section>
+    <section class="watch wrap section" id="watch" aria-labelledby="watch-title">
+      <div class="section-top"><div><p class="eyebrow">02 / YOUR NEXT FAVORITE MOMENT</p><h2 id="watch-title">总有一个瞬间，让你心动。</h2></div><button class="text-link random-button" type="button" id="random-pick" hidden>帮我选一个 <span aria-hidden="true">↗</span></button></div>
+      <p class="section-description">一份慢慢看的入坑清单。推荐语是本站的观看感受，视频都链接到官方发布来源。</p>
+      <div class="watch-toolbar" id="watch-toolbar" hidden><div class="filters" role="group" aria-label="筛选视频"><button type="button" data-filter="all" aria-pressed="true">全部 <span>6</span></button><button type="button" data-filter="mv" aria-pressed="false">音乐 MV</button><button type="button" data-filter="stage" aria-pressed="false">舞台直拍</button><button type="button" data-filter="daily" aria-pressed="false">团综日常</button><button type="button" data-filter="saved" aria-pressed="false">我的收藏 <span data-saved-count>0</span></button></div><p class="result-count" id="result-count" role="status" aria-live="polite">6 个心动瞬间</p></div>
+      <div class="video-grid" id="video-grid">
+        <article class="video-card" data-id="love-dive" data-category="mv">
+          <a class="video-cover cover-love" href="https://www.youtube.com/watch?v=Y8JFxS1HlDo" target="_blank" rel="noopener noreferrer" aria-label="在 YouTube 观看 LOVE DIVE 官方 MV"><span class="cover-caption">THE SECOND SINGLE</span><span class="love-heart" aria-hidden="true">♡</span><span class="cover-title">LOVE<br><i>DIVE</i></span><span class="cover-bottom">IVE <span class="play-circle" aria-hidden="true">↗</span></span></a>
+          <div class="video-body"><div class="video-meta"><span>官方 MV</span><time datetime="2022-04-05">2022.04.05</time></div><div class="video-title-row"><h3>LOVE DIVE</h3><button class="save-button" type="button" data-save="love-dive" aria-label="收藏 LOVE DIVE" aria-pressed="false" hidden>♡</button></div><p>第一次心动的入口。把目光放在她的镜头上，感受那份从容与灵动。</p><a class="video-source" href="https://www.youtube.com/watch?v=Y8JFxS1HlDo" target="_blank" rel="noopener noreferrer">STARSHIP · 去看原视频 ↗</a></div>
+        </article>
+        <article class="video-card" data-id="i-am" data-category="mv">
+          <a class="video-cover cover-iam" href="https://www.youtube.com/watch?v=6ZUIwj3FgUY" target="_blank" rel="noopener noreferrer" aria-label="在 YouTube 观看 I AM 官方 MV"><span class="cover-caption">THE FIRST FULL ALBUM</span><span class="cover-orbit" aria-hidden="true"></span><span class="cover-title">I <i>AM.</i></span><span class="cover-bottom">IVE <span class="play-circle" aria-hidden="true">↗</span></span></a>
+          <div class="video-body"><div class="video-meta"><span>官方 MV</span><time datetime="2023-04-10">2023.04.10</time></div><div class="video-title-row"><h3>I AM</h3><button class="save-button" type="button" data-save="i-am" aria-label="收藏 I AM" aria-pressed="false" hidden>♡</button></div><p>把音量稍微调高一点。适合在需要一点勇气的日子里，感受明亮的力量。</p><a class="video-source" href="https://www.youtube.com/watch?v=6ZUIwj3FgUY" target="_blank" rel="noopener noreferrer">STARSHIP · 去看原视频 ↗</a></div>
+        </article>
+        <article class="video-card" data-id="after-like" data-category="mv">
+          <a class="video-cover cover-after" href="https://www.youtube.com/watch?v=jKbWN9qgeiY" target="_blank" rel="noopener noreferrer" aria-label="在 YouTube 观看 After LIKE 官方 MV"><span class="cover-caption">THE THIRD SINGLE</span><span class="cover-burst" aria-hidden="true">✳</span><span class="cover-title"><i>After</i><br>LIKE</span><span class="cover-bottom">IVE <span class="play-circle" aria-hidden="true">↗</span></span></a>
+          <div class="video-body"><div class="video-meta"><span>官方 MV</span><time datetime="2022-08-22">2022.08.22</time></div><div class="video-title-row"><h3>After LIKE</h3><button class="save-button" type="button" data-save="after-like" aria-label="收藏 After LIKE" aria-pressed="false" hidden>♡</button></div><p>给心情加一点亮色。轻快的旋律和鲜明的画面，很适合循环播放。</p><a class="video-source" href="https://www.youtube.com/watch?v=jKbWN9qgeiY" target="_blank" rel="noopener noreferrer">1theK · 去看原视频 ↗</a></div>
+        </article>
+        <article class="video-card" data-id="eleven" data-category="mv">
+          <a class="video-cover cover-eleven" href="https://www.youtube.com/watch?v=7tkbzxa8MFQ" target="_blank" rel="noopener noreferrer" aria-label="在 YouTube 观看 ELEVEN 官方 MV"><span class="cover-caption">WHERE THE STORY BEGINS</span><span class="eleven-number" aria-hidden="true">11</span><span class="cover-title">ELEVEN</span><span class="cover-bottom">IVE <span class="play-circle" aria-hidden="true">↗</span></span></a>
+          <div class="video-body"><div class="video-meta"><span>官方 MV</span><time datetime="2021-12-01">2021.12.01</time></div><div class="video-title-row"><h3>ELEVEN</h3><button class="save-button" type="button" data-save="eleven" aria-label="收藏 ELEVEN" aria-pressed="false" hidden>♡</button></div><p>回到 IVE 故事开始的地方。看完后再去看后来的舞台，会有不同的感受。</p><a class="video-source" href="https://www.youtube.com/watch?v=7tkbzxa8MFQ" target="_blank" rel="noopener noreferrer">1theK · 去看原视频 ↗</a></div>
+        </article>
+        <article class="video-card" data-id="fancam" data-category="stage">
+          <a class="video-cover cover-stage" href="https://www.youtube.com/watch?v=-upaPSCKQeg" target="_blank" rel="noopener noreferrer" aria-label="在 YouTube 观看 I AM · 元英直拍 个人直拍"><span class="cover-caption">WONYOUNG / INKIGAYO</span><span class="stage-star" aria-hidden="true">✧</span><span class="cover-title"><i>All eyes</i><br>on her.</span><span class="cover-bottom">I AM · 4K FANCAM <span class="play-circle" aria-hidden="true">↗</span></span></a>
+          <div class="video-body"><div class="video-meta"><span>个人直拍</span><time datetime="2023-04-23">2023.04.23</time></div><div class="video-title-row"><h3>I AM · 元英直拍</h3><button class="save-button" type="button" data-save="fancam" aria-label="收藏 I AM · 元英直拍" aria-pressed="false" hidden>♡</button></div><p>这一支，把镜头完整留给元英。从动作到表情，慢慢发现你喜欢的细节。</p><a class="video-source" href="https://www.youtube.com/watch?v=-upaPSCKQeg" target="_blank" rel="noopener noreferrer">SBSKPOP ZOOM · 去看原视频 ↗</a></div>
+        </article>
+        <article class="video-card" data-id="123-ive" data-category="daily">
+          <a class="video-cover cover-daily" href="https://www.youtube.com/watch?v=fIGHHs5Uuyk" target="_blank" rel="noopener noreferrer" aria-label="在 YouTube 观看 1,2,3 IVE · S4 EP.1 官方团综"><span class="cover-caption">OFF STAGE, TOGETHER</span><span class="daily-flower" aria-hidden="true">✿</span><span class="cover-title">1, 2, 3<br><i>IVE!</i></span><span class="cover-bottom">SEASON 4 · EP.1 <span class="play-circle" aria-hidden="true">↗</span></span></a>
+          <div class="video-body"><div class="video-meta"><span>官方团综</span><time datetime="2024-01-01">2024.01.01</time></div><div class="video-title-row"><h3>1,2,3 IVE · S4 EP.1</h3><button class="save-button" type="button" data-save="123-ive" aria-label="收藏 1,2,3 IVE · S4 EP.1" aria-pressed="false" hidden>♡</button></div><p>看过舞台，也想看看她的日常？和成员们一起笑的时候，又是另一种可爱。</p><a class="video-source" href="https://www.youtube.com/watch?v=fIGHHs5Uuyk" target="_blank" rel="noopener noreferrer">IVE 官方频道 · 去看原视频 ↗</a></div>
+        </article>
+      </div>
+      <div class="empty-state" id="empty-state" hidden><span aria-hidden="true">♡</span><h3>把喜欢的瞬间，留在这里。</h3><p>还没有收藏。点击视频卡片旁的爱心，下次回来就能找到它。</p><button class="button secondary" type="button" data-reset-filter>去看看全部视频 →</button></div>
+      <p class="watch-note">视频在 YouTube 打开，访问情况取决于所在网络。<span id="storage-note" hidden>收藏只保存在当前浏览器。</span></p>
+      <noscript><p class="watch-note">开启 JavaScript 后可使用分类筛选、随机推荐和本机收藏；所有视频链接仍可直接访问。</p></noscript>
+    </section>
+    <section class="birthday wrap" id="birthday" aria-labelledby="birthday-title">
+      <div class="birthday-copy"><p class="eyebrow">03 / SAVE A LITTLE LOVE FOR AUGUST</p><h2 id="birthday-title">每年的 8 月 31 日，<br>都想认真说一句生日快乐。</h2><p>域名里的 20040831，是这份喜欢的小小暗号。<br>一起把下一次生日，留在日历里。</p><a class="text-link" href="./assets/wonyoung-birthday.ics" download>把生日加入日历 <span aria-hidden="true">↗</span></a></div>
+      <div class="birthday-date"><span class="birthday-flower" aria-hidden="true">✳</span><p>AUGUST</p><div class="date-number">08<span>·</span>31</div><p id="birthday-countdown" aria-live="polite">每年一次，属于元英的日子。</p><span class="birthday-small">WITH LOVE, ALWAYS ♡</span></div>
+    </section>
+    <section class="official wrap section" aria-labelledby="official-title"><div><p class="eyebrow">KEEP IN TOUCH</p><h2 id="official-title">更多关于她，去官方看看。</h2><p>继续探索新的舞台、音乐和日常。</p></div><div class="official-links"><a href="https://www.youtube.com/@IVEstarship" target="_blank" rel="noopener noreferrer"><span>01</span><div>IVE 官方 YouTube<small>团综、幕后与日常内容</small></div><span aria-hidden="true">↗</span></a><a href="https://ive-official.jp/" target="_blank" rel="noopener noreferrer"><span>02</span><div>IVE 日本官方网站<small>成员资料与官方资讯</small></div><span aria-hidden="true">↗</span></a><a href="https://www.starship-ent.com/" target="_blank" rel="noopener noreferrer"><span>03</span><div>STARSHIP Entertainment<small>所属公司官方入口</small></div><span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="footer wrap"><div class="footer-main"><a class="footer-brand" href="#home">Dear Wonyoung<span>♡</span></a><p>因为喜欢，所以分享。<br>本站由粉丝独立制作，与艺人及所属公司无官方关联。</p><a class="back-top" href="#home">回到顶部 ↑</a></div><details id="credits"><summary>资料来源与图片署名</summary><p>人物生日、IVE 成员信息及组合出道日期参考 <a href="https://ive-official.jp/mob/pageShw.php?cd=profile&amp;site=DIVE" target="_blank" rel="noopener noreferrer">IVE 日本官方资料</a>。视频发布信息见各卡片的原视频链接。</p><p>首页照片：Ten Asia，2026 年 3 月 31 日公开活动影像截图，经 <a href="https://commons.wikimedia.org/wiki/File:033126_Jang_Won-young_for_Rolarola_photo_call_(4).jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> 获取，按 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> 使用。本站做了缩放、WebP 转换及显示裁切；原作者未为本站背书。视频卡片的文字封面由本站制作。</p></details><div class="footer-bottom"><span>20040831.xyz</span><span>MADE FOR WONYOUNG, AND FOR YOU.</span><span>FAN PICKS · 2026.10.09</span></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
 </html>
