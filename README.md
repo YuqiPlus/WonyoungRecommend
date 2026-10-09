@@ -21,6 +21,8 @@ IVE 成员张元英的中文粉丝安利站。使用 GitHub Pages 托管静态�
 3. 打开 [Actions](https://github.com/YuqiPlus/WonyoungRecommend/actions)，选择 **Deploy website to GitHub Pages**，点击 **Run workflow**。
 4. 等待部署成功后，访问 <https://yuqiplus.github.io/WonyoungRecommend/>。
 
+**Source 必须选择 GitHub Actions。** 如果选择 `Deploy from a branch`，GitHub 的默认 Jekyll 流程会同时运行，并可能把仓库 README 发布成首页，覆盖本站。工作流会检查发布来源；遇到该错误时，修改 Source 后重新运行工作流即可。
+
 免费账户使用 GitHub Pages 时，仓库需要为公开仓库；私有仓库需要支持 Pages 的付费方案。工作流使用 GitHub 自动提供的 `GITHUB_TOKEN`，不需要添加个人令牌或 SSH 密钥到 Actions。
 
 ## 编辑网站
