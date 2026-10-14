@@ -24,6 +24,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Validate and build timeline
+        run: |
+          node --test scripts/test/*.test.mjs
+          node scripts/build-timeline.mjs
       - name: Check Pages publishing source
         env:
           GH_TOKEN: ${{ github.token }}
