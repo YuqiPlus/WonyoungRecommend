@@ -4,7 +4,15 @@ import { resolve } from 'node:path';
 
 export const categories = { tv: '电视综艺', web: '网络节目', reality: '团综日常', milestone: '重要时刻' };
 export const eras = { beginning: '初次亮相', izone: 'IZ*ONE', solo: '个人活动', ive: 'IVE' };
-const kinds = { full: '官方整期', clip: '官方片段', playlist: '官方播放列表', trailer: '官方预告', mv: '官方 MV', stage: '官方舞台', part: '官方分段正片' };
+const kinds = { full: '整期', clip: '片段', playlist: '播放列表', trailer: '预告', mv: 'MV', stage: '舞台', part: '分段正片' };
+const platforms = { youtube: 'YouTube', bilibili: '哔哩哔哩' };
+export function videoPlatform(video) {
+  return new URL(video.url).hostname === 'www.youtube.com' ? 'youtube' : 'bilibili';
+}
+export function videoCover(video) {
+  if (videoPlatform(video) === 'youtube') return `https://i.ytimg.com/vi/${new URL(video.url).searchParams.get('v')}/hqdefault.jpg`;
+  return video.thumbnail;
+}
 export const escapeHTML = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 
 function validDate(value) {
@@ -27,7 +35,18 @@ export function validateArchive(data) {
     for (const video of entry.videos) {
       checkLink(video);
       if (!Object.hasOwn(kinds, video.kind) || !video.publisher?.trim()) throw new Error(`Invalid video: ${entry.id}`);
-      if (!/^UC[A-Za-z0-9_-]{22}$/.test(video.channelId || '') || !validDate(video.published) || video.published > data.updated) throw new Error(`Missing verified video metadata: ${entry.id}`);
+      const url = new URL(video.url);
+      if (url.hostname === 'www.youtube.com') {
+        if (url.pathname !== '/watch' || !/^[A-Za-z0-9_-]{11}$/.test(url.searchParams.get('v') || '') || !/^UC[A-Za-z0-9_-]{22}$/.test(video.channelId || '')) throw new Error(`Invalid YouTube metadata: ${entry.id}`);
+      } else if (url.hostname === 'www.bilibili.com') {
+        if (!/^\/video\/BV[A-Za-z0-9]{10}\/$/.test(url.pathname) || !/^[1-9]\d*$/.test(String(video.uploaderId || '')) || video.sourceRole !== 'fan') throw new Error(`Invalid Bilibili metadata: ${entry.id}`);
+        if (url.searchParams.has('p') && !/^[1-9]\d*$/.test(url.searchParams.get('p'))) throw new Error(`Invalid episode page: ${entry.id}`);
+        const cover = new URL(video.thumbnail);
+        if (cover.protocol !== 'https:' || !/^i[0-2]\.hdslb\.com$/.test(cover.hostname) || cover.username || cover.password || !cover.pathname.startsWith('/bfs/archive/')) throw new Error(`Invalid thumbnail: ${entry.id}`);
+      } else throw new Error(`Unsupported video platform: ${entry.id}`);
+      if (video.subtitles && !['zh', 'unconfirmed'].includes(video.subtitles)) throw new Error(`Invalid subtitles: ${entry.id}`);
+      if (video.dateBasis && video.dateBasis !== 'page') throw new Error(`Invalid date basis: ${entry.id}`);
+      if (!validDate(video.published) || video.published > data.updated) throw new Error(`Missing verified video metadata: ${entry.id}`);
     }
     entry.sources.forEach(checkLink);
   }
@@ -38,13 +57,17 @@ function link(item, css = '') {
 }
 function card(entry) {
   const search = [entry.title, entry.episode, entry.date, entry.summary, entry.originalTitle || '', ...(entry.tags || []), eras[entry.era], categories[entry.category]].join(' ');
-  const videos = entry.videos.map(video => `<div class="archive-video">${link(video, 'archive-watch')}<span>${escapeHTML(video.publisher)} · ${kinds[video.kind]}</span></div>`).join('');
-  return `<article class="archive-entry" id="${entry.id}" data-timeline-entry data-date="${entry.date}" data-category="${entry.category}" data-era="${entry.era}" data-search="${escapeHTML(search)}">
+  const videos = entry.videos.map(video => {
+    const platform = videoPlatform(video);
+    return `<div class="archive-video"><a class="archive-watch" href="${escapeHTML(video.url)}" target="_blank" rel="noopener noreferrer"><span class="archive-thumbnail"><span class="archive-cover-fallback" aria-hidden="true">✧<small>前往${platforms[platform]}观看</small></span><img src="${escapeHTML(videoCover(video))}" alt="" width="480" height="270" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span class="archive-platform" data-platform="${platform}">${platforms[platform]}</span><span class="archive-play" aria-hidden="true">▶</span></span><span class="archive-watch-label">${escapeHTML(video.label)} <span aria-hidden="true">↗</span></span></a><span>${escapeHTML(video.publisher)} · ${video.sourceRole === 'fan' ? '粉丝分享' : '官方频道'} · ${kinds[video.kind]}${video.subtitles === 'zh' ? ' · 中字' : ''}</span>${video.note ? `<span>${escapeHTML(video.note)}</span>` : ''}</div>`;
+  }).join('');
+  const entryPlatforms = [...new Set(entry.videos.map(videoPlatform))].join(' ');
+  return `<article class="archive-entry" id="${entry.id}" data-timeline-entry data-date="${entry.date}" data-category="${entry.category}" data-era="${entry.era}" data-platforms="${entryPlatforms}" data-search="${escapeHTML(search)}">
   <div class="archive-date"><time datetime="${entry.date}">${entry.date.slice(5).replace('-', '.')}</time><span>${entry.dateType === 'broadcast' ? '节目播出' : '视频发布'}</span></div>
   <div class="archive-card"><div class="archive-card-meta"><span class="archive-category">${categories[entry.category]}</span><span>${eras[entry.era]}${entry.participation ? ` · ${escapeHTML(entry.participation)}` : ''}</span><a class="archive-permalink" href="#${entry.id}" aria-label="定位${escapeHTML(entry.title)}这条记录">#</a></div>
   <h3>${escapeHTML(entry.title)}</h3><p class="archive-episode">${escapeHTML(entry.episode)}</p><p class="archive-summary">${escapeHTML(entry.summary)}</p>
   <div class="archive-videos">${videos}</div>
-  <details class="archive-evidence"><summary>来源与日期说明</summary><p>${entry.dateType === 'broadcast' ? '日期为节目播出日；片段可能在之后上传。' : '日期为所列官方视频的发布日，不代表录制或电视首播日期。'}${entry.dateNote ? ` ${escapeHTML(entry.dateNote)}` : ''}</p>${entry.originalTitle ? `<p lang="ko">原题：${escapeHTML(entry.originalTitle)}</p>` : ''}<ul>${entry.sources.map(source => `<li>${link(source)}</li>`).join('')}</ul></details></div></article>`;
+  <details class="archive-evidence"><summary>来源与日期说明</summary><p>${entry.dateType === 'broadcast' ? '日期为节目播出日；片段可能在之后上传。' : '日期为所列原始视频的发布日，不代表录制或电视首播日期。'}${entry.dateNote ? ` ${escapeHTML(entry.dateNote)}` : ''}</p><ul>${entry.videos.map(video => `<li>${platforms[videoPlatform(video)]} · ${escapeHTML(video.publisher)} · 上传于 ${video.published}${videoPlatform(video) === 'bilibili' ? '（中国时间）' : video.dateBasis === 'page' ? '（视频页面日期）' : '（韩国时间）'}</li>`).join('')}</ul>${entry.originalTitle ? `<p>原题：${escapeHTML(entry.originalTitle)}</p>` : ''}<ul>${entry.sources.map(source => `<li>${link(source)}</li>`).join('')}</ul></details></div></article>`;
 }
 export function renderArchive(data, template) {
   validateArchive(data);

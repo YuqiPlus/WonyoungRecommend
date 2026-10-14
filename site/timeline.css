@@ -155,3 +155,25 @@
 
 .archive-layout:not(.archive-enhanced) { grid-template-columns:1fr; }
 .archive-video>span,.archive-evidence { font-size:10px; }
+
+.archive-selects { display:flex; flex-wrap:wrap; gap:8px; }
+.archive-platform-filter select { font:11px system-ui,sans-serif; color:var(--ink); border:1px solid var(--line); background:var(--paper); border-radius:3px; min-height:44px; padding:9px 24px 9px 11px; max-width:100%; }
+.archive-platform-filter select:focus-visible { outline:2px solid var(--berry); outline-offset:2px; }
+.archive-videos { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px 16px; }
+.archive-video { min-width:0; gap:8px; }
+.archive-watch { display:block; width:100%; padding:0; border:1px solid #deccd0; background:#faf0ec; border-radius:4px; overflow:hidden; }
+.archive-watch:focus-visible { outline:2px solid var(--berry); outline-offset:3px; }
+.archive-thumbnail { display:block; position:relative; aspect-ratio:16/9; overflow:hidden; background:#eedfdf; }
+.archive-thumbnail img { display:block; position:absolute; width:100%; height:100%; inset:0; object-fit:cover; transition:transform .2s; }
+.archive-thumbnail img[hidden] { display:none; }
+.archive-cover-fallback { position:absolute; inset:0; display:flex; flex-direction:column; gap:5px; align-items:center; justify-content:center; color:#99717d; font:32px var(--serif); }
+.archive-cover-fallback small { font:10px system-ui,sans-serif; }
+.archive-platform { position:absolute; left:8px; top:8px; border-radius:3px; padding:4px 7px; color:white; background:#822b3d; font:9px system-ui,sans-serif; }
+.archive-platform[data-platform="bilibili"] { background:#31667b; }
+.archive-play { position:absolute; bottom:9px; right:9px; border-radius:50%; color:white; background:#33262cbf; width:29px; height:29px; display:grid; place-items:center; font-size:11px; padding-left:2px; }
+.archive-watch-label { display:flex; justify-content:space-between; gap:8px; padding:11px 12px; line-height:1.6; }
+.archive-video>span { font-size:10px; line-height:1.7; overflow-wrap:anywhere; }
+.archive-cover-note { padding-bottom:28px; font-size:10px; line-height:1.9; color:var(--muted); }
+@media (hover:hover) and (prefers-reduced-motion:no-preference) { .archive-watch:hover img { transform:scale(1.035); } }
+@media (max-width:600px) { .archive-videos { grid-template-columns:1fr; } .archive-platform-filter select { font-size:10px; padding-inline:8px 18px; } }
+@media (max-width:760px) { .archive-date time { font-size:17px; white-space:nowrap; } }

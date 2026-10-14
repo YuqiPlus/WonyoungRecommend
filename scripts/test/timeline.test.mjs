@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { validateArchive, renderArchive } from '../build-timeline.mjs';
+import { validateArchive, renderArchive, videoPlatform, videoCover, escapeHTML } from '../build-timeline.mjs';
 
 const data = JSON.parse(readFileSync(new URL('../../content/timeline.json', import.meta.url), 'utf8'));
 const template = readFileSync(new URL('../../content/timeline-template.html', import.meta.url), 'utf8');
@@ -15,8 +15,7 @@ test('archive covers 2018–2026 with dated, sourced videos and both group eras'
     assert.ok(entry.sources.some(source => source.url === entry.videos[0].url));
     for (const video of entry.videos) {
       const url = new URL(video.url);
-      assert.equal(url.hostname, 'www.youtube.com');
-      assert.match(url.searchParams.get('v'), /^[A-Za-z0-9_-]{11}$/);
+      assert.ok(['www.youtube.com', 'www.bilibili.com'].includes(url.hostname));
       assert.ok(video.published <= data.updated);
     }
   }
@@ -43,11 +42,47 @@ test('all records and video links are readable in static HTML without player emb
   assert.equal((html.match(/data-timeline-entry /g) || []).length, data.entries.length);
   for (const entry of data.entries) {
     assert.ok(html.includes(`id="${entry.id}"`));
-    for (const video of entry.videos) assert.ok(html.includes(`href="${video.url}"`));
+    for (const video of entry.videos) assert.ok(html.includes(`href="${escapeHTML(video.url)}"`));
   }
-  assert.doesNotMatch(html, /<iframe|src="https:\/\/|\{\{[A-Z_]+\}\}/);
+  assert.doesNotMatch(html, /<iframe|<video|\{\{[A-Z_]+\}\}/);
+  assert.equal((html.match(/loading="lazy"/g) || []).length, data.entries.reduce((sum, entry) => sum + entry.videos.length, 0));
+  assert.match(html, /referrerpolicy="no-referrer"/);
   assert.match(html, /data-timeline-controls hidden/);
   assert.match(html, /rel="noopener noreferrer"/);
+});
+
+test('cross-platform links retain attribution, actual format, subtitles and verified covers', () => {
+  const pairs = data.entries.filter(entry => new Set(entry.videos.map(videoPlatform)).size === 2);
+  assert.ok(pairs.length > 0);
+  for (const entry of pairs) {
+    for (const video of entry.videos.filter(video => videoPlatform(video) === 'bilibili')) {
+      assert.match(videoCover(video), /^https:\/\/i[0-2]\.hdslb\.com\/bfs\/archive\//);
+      assert.ok(entry.sources.some(source => source.url === video.url));
+    }
+  }
+  const html = renderArchive(data, template);
+  assert.match(html, /data-platforms="youtube bilibili"/);
+  assert.match(html, /粉丝分享/);
+  assert.match(html, /id="timeline-platform"/);
+});
+
+test('untrusted video hosts, malformed Bilibili pages and external thumbnail hosts are rejected', () => {
+  const base = data.entries.flatMap(entry => entry.videos).find(video => videoPlatform(video) === 'bilibili');
+  assert.ok(base);
+  for (const change of [
+    v => { v.url = 'https://www.youtube.com.evil.example/watch?v=12345678901'; },
+    v => { v.url = 'https://www.bilibili.com/video/not-a-video/'; },
+    v => { v.url += '?p=0'; },
+    v => { v.thumbnail = 'https://tracking.example/image.jpg'; },
+    v => { v.thumbnail = 'https://i0.hdslb.com.evil.example/bfs/archive/a.jpg'; },
+    v => { v.sourceRole = 'official'; },
+    v => { v.uploaderId = ''; },
+    v => { v.subtitles = 'invented'; }
+  ]) {
+    const value = copy(); const video = structuredClone(base); change(video);
+    value.entries[0].videos.push(video);
+    assert.throws(() => validateArchive(value));
+  }
 });
 
 test('archive text and search attributes cannot introduce HTML', () => {
