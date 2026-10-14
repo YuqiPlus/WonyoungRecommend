@@ -1,0 +1,22 @@
+{
+  "name": "wonyoung-guestbook",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "wrangler dev --ip 127.0.0.1 --port 8787 --var ALLOWED_ORIGINS:http://127.0.0.1:8000",
+    "test": "node --test test/*.test.js",
+    "db:local": "wrangler d1 migrations apply DB --local",
+    "prepare:deploy": "node scripts/prepare-deploy.js",
+    "db:remote": "wrangler d1 migrations apply DB --remote --config .wrangler.deploy.json",
+    "deploy": "wrangler deploy --config .wrangler.deploy.json",
+    "check:deploy": "wrangler deploy --dry-run --outdir .wrangler/dry-run"
+  },
+  "devDependencies": {
+    "miniflare": "5.20261006.2-beta",
+    "wrangler": "4.150.0"
+  }
+}

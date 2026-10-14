@@ -1,0 +1,27 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "wonyoung-guestbook",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-13",
+  "workers_dev": false,
+  "preview_urls": false,
+  "keep_vars": true,
+  "routes": [{ "pattern": "api.20040831.xyz", "custom_domain": true }],
+  "vars": {
+    "ALLOWED_ORIGINS": "https://20040831.xyz,https://www.20040831.xyz,https://yuqiplus.github.io",
+    "LLM_BASE_URL": "https://ark.cn-beijing.volces.com/api/coding/v3",
+    "LLM_MODEL": "doubao-seed-2.1-lite"
+  },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "wonyoung-guestbook",
+    "database_id": "00000000-0000-0000-0000-000000000000",
+    "migrations_dir": "migrations"
+  }],
+  "ratelimits": [{
+    "name": "SUBMISSION_LIMITER",
+    "namespace_id": "2004083101",
+    "simple": { "limit": 5, "period": 60 }
+  }],
+  "observability": { "enabled": false }
+}

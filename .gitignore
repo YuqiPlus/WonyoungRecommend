@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+.env
+.env.*
+node_modules/
+.wrangler/
+.wrangler.deploy.json
+.dev.vars
+.dev.vars.*
+*.log
+*.bundle
+coverage/
+test-results/
+playwright-report/
