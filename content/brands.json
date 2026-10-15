@@ -1,0 +1,658 @@
+{
+  "updated": "2026-10-15",
+  "freshnessDays": 180,
+  "brands": [
+    {
+      "id": "innisfree",
+      "name": "innisfree 悦诗风吟",
+      "category": "beauty",
+      "tone": "sage",
+      "aliases": [
+        "悦诗风吟",
+        "이니스프리"
+      ],
+      "note": "保留正式官宣记录；这份资料未提供合约结束日期，不据此推断目前仍在约。",
+      "events": [
+        {
+          "date": "2021-07-27",
+          "kind": "appointment",
+          "role": "全球品牌大使",
+          "scope": "全球",
+          "title": "成为 innisfree 全球品牌大使",
+          "summary": "爱茉莉太平洋官方发布任命，并公开首支预告。",
+          "sources": [
+            {
+              "label": "爱茉莉太平洋 · 官宣",
+              "url": "https://stories.amorepacific.com/en/innisfree-selects-jang-won-young-as-global-brand-ambassador/",
+              "kind": "official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "miu-miu-fashion",
+      "name": "Miu Miu · 时装",
+      "category": "fashion",
+      "tone": "rose",
+      "aliases": [
+        "miu miu",
+        "缪缪",
+        "미우미우"
+      ],
+      "note": "时装身份与 Miu Miu Beauty 的香氛身份分开记录；此处的最早收录日期不等于最初签约日期。",
+      "events": [
+        {
+          "date": "2024-05-14",
+          "kind": "campaign",
+          "role": "品牌大使；Miu Miu Select 策展人",
+          "scope": "首尔活动；精选项目",
+          "title": "Miu Miu Select by Wonyoung Jang",
+          "summary": "品牌发布精选项目视频；活动于 5 月 13 日在首尔举行，品牌官网同时明确其大使身份。",
+          "sources": [
+            {
+              "label": "Miu Miu · 官方视频（5 月 14 日发布）",
+              "url": "https://www.youtube.com/watch?v=yAmEoSgFi7k",
+              "kind": "official"
+            },
+            {
+              "label": "Miu Miu · 2024 Select 项目与身份说明",
+              "url": "https://www.miumiu.com/ww/en/miumiu-club/special-projects/miu-miu-select-2024.html",
+              "kind": "official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eider",
+      "name": "EIDER",
+      "category": "fashion",
+      "tone": "sky",
+      "aliases": [
+        "아이더",
+        "户外"
+      ],
+      "note": "当前首批档案只核对了早期模特任命，后续地区身份与续约需要另附来源。",
+      "events": [
+        {
+          "date": "2022-08-16",
+          "kind": "appointment",
+          "role": "品牌模特",
+          "scope": "韩国发布",
+          "title": "EIDER 新模特公开",
+          "summary": "媒体报道品牌发布秋冬视觉，并宣布由张元英担任新模特。",
+          "sources": [
+            {
+              "label": "Lady Kyunghyang · 品牌模特官宣报道",
+              "url": "https://lady.khan.co.kr/fashion/article/202208160959001",
+              "kind": "media"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fred",
+      "name": "FRED",
+      "category": "jewelry",
+      "tone": "sand",
+      "aliases": [
+        "프레드",
+        "斐登"
+      ],
+      "note": "历史任命保留在档案中。没有取得明确结束公告，结束日期保持未公开。",
+      "events": [
+        {
+          "date": "2022-08-19",
+          "kind": "appointment",
+          "role": "韩国品牌大使",
+          "scope": "韩国",
+          "title": "FRED 韩国大使任命",
+          "summary": "W Korea 发布品牌合作企划，确认张元英成为 FRED 首位韩国大使。",
+          "sources": [
+            {
+              "label": "W Korea · FRED 合作企划",
+              "url": "https://www.wkorea.com/2022/08/19/프레드의-국내-최초-앰버서더-장원영/",
+              "kind": "media"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sjsj",
+      "name": "SJSJ",
+      "category": "fashion",
+      "tone": "lavender",
+      "aliases": [
+        "에스제이에스제이",
+        "한섬"
+      ],
+      "note": "首批记录保留 2023 年任命，后续合同状态未据此推算。",
+      "events": [
+        {
+          "date": "2023-02-15",
+          "kind": "appointment",
+          "role": "品牌 Muse / 模特",
+          "scope": "韩国",
+          "title": "SJSJ 新 Muse 公开",
+          "summary": "品牌通过首组春季视觉宣布新的 Muse；本条采用当日媒体报道日期。",
+          "sources": [
+            {
+              "label": "iMBC · SJSJ 品牌发布报道",
+              "url": "https://enews.imbc.com/M/Detail/373743",
+              "kind": "media"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rolarola",
+      "name": "rolarola",
+      "category": "fashion",
+      "tone": "rose",
+      "aliases": [
+        "로라로라",
+        "萝拉萝拉"
+      ],
+      "note": "按季节视觉记录公开合作；品牌 Muse 的称谓保留原公告用语。",
+      "events": [
+        {
+          "date": "2024-02-23",
+          "kind": "appointment",
+          "role": "品牌 Muse",
+          "scope": "韩国发布",
+          "title": "Je T’aime rolarola 春季视觉",
+          "summary": "品牌公开新 Muse 张元英及 2024 春季系列视觉。",
+          "sources": [
+            {
+              "label": "Fashion Seoul · 新 Muse 与春季系列",
+              "url": "https://fashionseoul.com/240649",
+              "kind": "media"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-27",
+          "kind": "campaign",
+          "role": "品牌 Muse / 系列视觉模特",
+          "scope": "韩国发布",
+          "title": "2026 Summer · The Attitude",
+          "summary": "品牌发布张元英出演的 2026 夏季系列视觉。此条仅反映本次已收录活动。",
+          "sources": [
+            {
+              "label": "STARNEWS · 品牌夏季视觉报道",
+              "url": "https://www.starnewskorea.com/en/star/2026/03/27/2026032708555354291",
+              "kind": "media"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "kind": "campaign",
+          "role": "系列广告模特",
+          "scope": "韩国发布；冬季系列",
+          "title": "2026 Winter · Untouched — As She Is",
+          "summary": "品牌公开张元英出演的冬季系列广告视觉，作为另一条有日期的合作记录保留。",
+          "sources": [
+            {
+              "label": "韩国纤维新闻 · 品牌冬季广告报道",
+              "url": "https://www.ktnews.com/news/articleView.html?idxno=149049",
+              "kind": "media"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tommy-jeans",
+      "name": "TOMMY JEANS",
+      "category": "fashion",
+      "tone": "sky",
+      "aliases": [
+        "Tommy Hilfiger",
+        "汤米",
+        "타미진스"
+      ],
+      "note": "2024 年模特报道与 2026 年官方全球大使称谓分别保留，不把后来的身份提前套用。",
+      "events": [
+        {
+          "date": "2024-08-30",
+          "kind": "campaign",
+          "role": "韩国广告模特",
+          "scope": "韩国",
+          "title": "2024 Fall 广告视觉",
+          "summary": "报道记录张元英参与 Tommy Jeans 韩国秋季广告；本文日期采用文中明确的韩国发布时间。",
+          "sources": [
+            {
+              "label": "allkpop · 韩国秋季广告报道",
+              "url": "https://www.allkpop.com/article/2024/08/ives-wonyoung-selected-as-new-model-for-tommy-jeans-in-korea",
+              "kind": "media"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "kind": "campaign",
+          "role": "全球品牌大使",
+          "scope": "全球身份；日本发布",
+          "title": "2026 Fall · 官方全球大使称谓",
+          "summary": "PVH Japan 的秋季广告公告明确称张元英为全球品牌大使。",
+          "sources": [
+            {
+              "label": "PVH Japan · 官方秋季广告公告",
+              "url": "https://prtimes.jp/main/html/rd/p/000000301.000010635.html",
+              "kind": "official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "woori-bank",
+      "name": "WOORI BANK 友利银行",
+      "category": "lifestyle",
+      "tone": "sky",
+      "aliases": [
+        "우리은행",
+        "WON",
+        "友利"
+      ],
+      "note": "此条仅记录银行与 WON Banking 广告，不扩大为所有友利集团业务的代言。",
+      "events": [
+        {
+          "date": "2025-02-14",
+          "kind": "appointment",
+          "role": "广告模特",
+          "scope": "韩国；WON Banking 广告",
+          "title": "加入友利银行广告模特阵容",
+          "summary": "银行公布新模特，并推出与 RIIZE 共同出演的 WON MORE 广告。",
+          "sources": [
+            {
+              "label": "NEWSIS · 银行新模特公告报道",
+              "url": "https://www.newsis.com/view/NISX20250214_0003065268",
+              "kind": "media"
+            }
+          ]
+        },
+        {
+          "date": "2025-10-31",
+          "kind": "campaign",
+          "role": "广告模特",
+          "scope": "韩国；退休年金广告",
+          "title": "公开退休年金广告",
+          "summary": "媒体报道银行公开张元英出演的退休年金广告；这是另一条有日期的合作记录。",
+          "sources": [
+            {
+              "label": "Newspim · 银行广告报道",
+              "url": "https://ir.newspim.com/news/view/20251031001164",
+              "kind": "media"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dyson",
+      "name": "dyson 戴森",
+      "category": "beauty",
+      "tone": "sand",
+      "aliases": [
+        "다이슨",
+        "戴森"
+      ],
+      "note": "韩国与亚太范围依各自公告日期展示；产品类别为美发设备。",
+      "events": [
+        {
+          "date": "2025-04-08",
+          "kind": "appointment",
+          "role": "韩国美发设备大使",
+          "scope": "韩国；美发设备",
+          "title": "韩国美发设备大使任命",
+          "summary": "Dyson Korea 宣布张元英成为美发设备领域的韩国官方大使。",
+          "sources": [
+            {
+              "label": "电子新闻 · Dyson Korea 发布报道",
+              "url": "https://m.etnews.com/20250408000373?SNS=00004",
+              "kind": "media"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-08",
+          "kind": "appointment",
+          "role": "亚太美发设备大使",
+          "scope": "亚太；美发设备",
+          "title": "亚太大使任命",
+          "summary": "戴森日本官网公布亚太地区美发设备大使任命，与早期韩国范围分开记录。",
+          "sources": [
+            {
+              "label": "Dyson 日本官网 · 亚太大使公告",
+              "url": "https://www.dyson.co.jp/discover/news/dysonbeauty-jangwonyoung",
+              "kind": "official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "downy",
+      "name": "Downy 当妮",
+      "category": "lifestyle",
+      "tone": "lavender",
+      "aliases": [
+        "다우니",
+        "当妮"
+      ],
+      "note": "品牌广告模特身份不扩展到 P&G 旗下其他品牌。",
+      "events": [
+        {
+          "date": "2025-07-01",
+          "kind": "appointment",
+          "role": "品牌广告模特",
+          "scope": "韩国；衣物护理",
+          "title": "成为 Downy 韩国广告模特",
+          "summary": "韩国 P&G 宣布新模特，配合室内晾干系列广告发布。",
+          "sources": [
+            {
+              "label": "亚洲经济 · 韩国 P&G 发布报道",
+              "url": "https://www.ajunews.com/view/20250701101538208",
+              "kind": "media"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medicube",
+      "name": "medicube AGE-R",
+      "category": "beauty",
+      "tone": "rose",
+      "aliases": [
+        "메디큐브",
+        "에이지알",
+        "美容仪"
+      ],
+      "note": "所列任命针对 AGE-R 美容设备新品，不直接扩展为 medicube 所有护肤品的全球代言。",
+      "events": [
+        {
+          "date": "2025-07-08",
+          "kind": "appointment",
+          "role": "美容设备广告模特",
+          "scope": "AGE-R 新品；地区未明确",
+          "title": "AGE-R 新品模特公开",
+          "summary": "APR 公布张元英为 Booster Pro Mini Plus 与 Booster 振动洁面设备的广告模特。",
+          "sources": [
+            {
+              "label": "韩国经济 · APR 新模特报道",
+              "url": "https://www.hankyung.com/article/202507084162g",
+              "kind": "media"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bvlgari",
+      "name": "BVLGARI 宝格丽",
+      "category": "jewelry",
+      "tone": "sand",
+      "aliases": [
+        "불가리",
+        "bulgari",
+        "宝格丽"
+      ],
+      "note": "所列发布确认品牌大使，未在此来源中明确全球头衔；因此保留“品牌大使”表述。",
+      "events": [
+        {
+          "date": "2025-08-27",
+          "kind": "appointment",
+          "role": "品牌大使",
+          "scope": "发布未明确地区",
+          "title": "BVLGARI 品牌大使任命",
+          "summary": "Marie Claire Korea 报道品牌正式宣布张元英成为新大使，并公开首组视觉。",
+          "sources": [
+            {
+              "label": "Marie Claire Korea · 任命与首组视觉",
+              "url": "https://www.marieclairekorea.com/celebrity/2025/08/bvlgari-wonyoung/",
+              "kind": "media"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dr-althea",
+      "name": "Dr. Althea",
+      "category": "beauty",
+      "tone": "sage",
+      "aliases": [
+        "닥터알테아",
+        "艾医生"
+      ],
+      "note": "3 月 9 日为公司新闻稿公开日；文中提及的 2 月 28 日预告保留在说明中。",
+      "events": [
+        {
+          "date": "2026-03-09",
+          "kind": "appointment",
+          "role": "全球品牌大使",
+          "scope": "全球；护肤",
+          "title": "公司发布全球大使新闻稿",
+          "summary": "The Pure Lab 以公司新闻稿确认全球大使身份，并说明合作曾于 2 月 28 日通过预告公布。",
+          "sources": [
+            {
+              "label": "The Pure Lab · 公司新闻稿 / PR Newswire",
+              "url": "https://www.prnewswire.com/news-releases/dr-althea-names-ives-jang-wonyoung-global-ambassador-amid-overseas-growth-302707835.html",
+              "kind": "official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kerastase",
+      "name": "KÉRASTASE 卡诗",
+      "category": "beauty",
+      "tone": "sand",
+      "aliases": [
+        "kerastase",
+        "케라스타즈",
+        "卡诗"
+      ],
+      "note": "此处先收录已核对的日本地区任命，其他地区与早期合作仍待补充；公告日和生效月份分开写。",
+      "events": [
+        {
+          "date": "2026-03-27",
+          "kind": "appointment",
+          "role": "日本地区品牌大使",
+          "scope": "日本；美发护理",
+          "title": "日本地区大使任命公告",
+          "summary": "日本欧莱雅发布公告，宣布由张元英担任卡诗日本地区大使。",
+          "sources": [
+            {
+              "label": "日本欧莱雅 / 卡诗 · 官方公告",
+              "url": "https://prtimes.jp/main/html/rd/p/000000034.000058119.html",
+              "kind": "official"
+            }
+          ],
+          "effectiveNote": "公告称自 2026 年 4 月起就任；3 月 27 日为公告公开日期。"
+        }
+      ]
+    },
+    {
+      "id": "amuse",
+      "name": "AMUSE",
+      "category": "beauty",
+      "tone": "rose",
+      "aliases": [
+        "어뮤즈",
+        "アミューズ"
+      ],
+      "note": "此条为品牌公告回顾的模特身份，不将公告发布时间当作最初签约日；其他网络年表不直接作为结束证据。",
+      "events": [
+        {
+          "date": "2026-03-30",
+          "kind": "campaign",
+          "role": "品牌模特",
+          "scope": "日本公告；美妆",
+          "title": "品牌日本公告回顾模特合作",
+          "summary": "AMUSE 自有新闻稿在品牌介绍中确认张元英的模特身份，并回顾自 2023 年起的合作。",
+          "sources": [
+            {
+              "label": "AMUSE CORPORATION · 官方品牌公告",
+              "url": "https://prtimes.jp/main/html/rd/p/000000027.000140231.html",
+              "kind": "official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dashing-diva",
+      "name": "DASHING DIVA",
+      "category": "beauty",
+      "tone": "lavender",
+      "aliases": [
+        "ダッシングディバ",
+        "데싱디바",
+        "美甲"
+      ],
+      "note": "日本 Muse 任命与早期韩国合作分别理解；保留官方对角色的具体称谓。",
+      "events": [
+        {
+          "date": "2026-03-02",
+          "kind": "appointment",
+          "role": "日本品牌 Muse",
+          "scope": "日本；美甲",
+          "title": "日本品牌 Muse 任命",
+          "summary": "Cross Plus 公告确认日本 Muse 任命，并提到她已担任韩国 Muse。",
+          "sources": [
+            {
+              "label": "Cross Plus · 日本 Muse 官宣",
+              "url": "https://prtimes.jp/main/html/rd/p/000000274.000048997.html",
+              "kind": "official"
+            }
+          ]
+        },
+        {
+          "date": "2026-05-21",
+          "kind": "campaign",
+          "role": "品牌 Muse",
+          "scope": "日本；美甲",
+          "title": "magic press 官方宣传片",
+          "summary": "日本运营方公开由品牌 Muse 张元英出演的宣传片。",
+          "sources": [
+            {
+              "label": "Cross Plus · 官方宣传片发布",
+              "url": "https://prtimes.jp/main/html/rd/p/000000290.000048997.html",
+              "kind": "official"
+            }
+          ]
+        },
+        {
+          "date": "2026-09-14",
+          "kind": "campaign",
+          "role": "品牌形象模特",
+          "scope": "日本；美甲",
+          "title": "2026 秋冬系列与 Wonyoung Select",
+          "summary": "官方秋冬系列公告继续确认形象模特身份，并公开她选择的设计。",
+          "sources": [
+            {
+              "label": "Cross Plus · 官方秋冬系列公告",
+              "url": "https://prtimes.jp/main/html/rd/p/000000315.000048997.html",
+              "kind": "official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "miu-miu-beauty",
+      "name": "Miu Miu Beauty",
+      "category": "beauty",
+      "tone": "rose",
+      "aliases": [
+        "miu miu",
+        "缪缪",
+        "香氛",
+        "Miutine"
+      ],
+      "note": "美妆与香氛身份独立于时装线；本条采用日本官方新闻稿日期，不声称这是全球首次任命日。",
+      "events": [
+        {
+          "date": "2026-06-10",
+          "kind": "appointment",
+          "role": "日本、韩国美妆品牌大使",
+          "scope": "日本与韩国；香氛",
+          "title": "日本公开美妆大使公告",
+          "summary": "Miu Miu Beauty 的日本新闻稿确认日韩两地身份，并介绍 Miutine 香氛视觉。",
+          "sources": [
+            {
+              "label": "Miu Miu Beauty · 日本官方新闻稿",
+              "url": "https://prtimes.jp/main/html/rd/p/000000010.000123764.html",
+              "kind": "official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ugg",
+      "name": "UGG",
+      "category": "fashion",
+      "tone": "sand",
+      "aliases": [
+        "어그",
+        "Born to Feel"
+      ],
+      "note": "地区与身份采用 Deckers Japan 的原始公告，未将亚太身份写为全球身份。",
+      "events": [
+        {
+          "date": "2026-09-17",
+          "kind": "appointment",
+          "role": "亚太品牌大使",
+          "scope": "亚太",
+          "title": "Born to Feel · 亚太大使官宣",
+          "summary": "Deckers Japan 公布亚太大使任命，并推出张元英出演的 Born to Feel 广告。",
+          "sources": [
+            {
+              "label": "Deckers Japan / UGG · 官方任命公告",
+              "url": "https://prtimes.jp/main/html/rd/p/000000784.000003434.html",
+              "kind": "official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dior-appearance",
+      "name": "Dior · 活动记录",
+      "category": "fashion",
+      "tone": "lavender",
+      "aliases": [
+        "迪奥",
+        "디올"
+      ],
+      "note": "这里只记录公开出席。出席品牌秀场、穿着品牌服装，不能据此确认大使任命，也不据此判断其他品牌合约已经结束。",
+      "events": [
+        {
+          "date": "2026-09-30",
+          "kind": "appearance",
+          "role": "秀场嘉宾；代言身份待确认",
+          "scope": "巴黎时装周活动",
+          "title": "首次 Dior 秀场公开报道",
+          "summary": "新闻记录张元英出席 Dior 秀场；本文未提供她的大使任命公告，故作为活动记录单列。",
+          "sources": [
+            {
+              "label": "The Korea Times · 秀场活动报道",
+              "url": "https://www.koreatimes.co.kr/entertainment/20260930/ive-member-jang-won-youngs-first-dior-show-and-a-meeting-with-blackpinks-jisoo",
+              "kind": "media"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

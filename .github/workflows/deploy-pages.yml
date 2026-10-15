@@ -32,6 +32,7 @@ jobs:
           node --test scripts/test/*.test.mjs
           node scripts/build-timeline.mjs
           node scripts/build-photocards.mjs
+          node scripts/build-brands.mjs
       - name: Check Pages publishing source
         env:
           GH_TOKEN: ${{ github.token }}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#fbf7f2">
+  <meta name="description" content="张元英品牌合作档案：按公开日期记录品牌大使、Muse、广告模特与活动，保留地区范围、身份变化和资料来源，可按日期回看。">
+  <meta property="og:title" content="品牌合作 · Dear Wonyoung"><meta property="og:description" content="把每一次不同的相遇，放回它的时间里。张元英品牌合作与代言档案。"><meta property="og:type" content="website"><meta property="og:url" content="https://20040831.xyz/brands.html">
+  <link rel="canonical" href="https://20040831.xyz/brands.html"><link rel="icon" type="image/svg+xml" href="./assets/favicon.svg"><link rel="stylesheet" href="./styles.css"><link rel="stylesheet" href="./brands.css"><script type="module" src="./brands.js"></script>
+  <title>品牌合作 · Dear Wonyoung</title>
+</head>
+<body class="brands-page">
+  <a class="skip-link" href="#brands-main">跳到品牌合作档案</a>
+  <header class="header"><div class="header-inner wrap"><a class="brand" href="./" aria-label="Dear Wonyoung 首页"><span class="brand-flower" aria-hidden="true">✳</span><span>DEAR<br>WONYOUNG<span class="brand-dot">.</span></span></a><nav aria-label="主导航"><a href="./#about">初次见面</a><a href="./#watch">必看清单</a><a href="./timeline.html">成长时间线</a><a href="./photocards.html">小卡图鉴</a><a href="./brands.html" aria-current="page">品牌合作</a><a href="./#guestbook">留言板</a></nav></div></header>
+  <main id="brands-main">
+    <section class="brands-hero wrap" aria-labelledby="brands-title"><div><p class="eyebrow">DEAR WONYOUNG / THE BRAND ARCHIVE</p><h1 id="brands-title">每一次相遇，<br>都有它的<em>时间。</em></h1><p class="brands-intro">是镜头里不同风格的她，也是一次次被看见的成长。<br>把品牌大使、Muse 与广告合作，放回公开资料的时间里。</p><div class="brands-stats"><div><strong id="brands-total">{{TOTAL}}</strong><span>份合作 / 活动档案</span></div><div><strong id="brands-recent">{{RECENT}}</strong><span>项近 180 天有合作资料</span></div><div><strong id="brands-events">{{EVENTS}}</strong><span>条有日期的来源记录</span></div></div></div><div class="brands-hero-art" aria-hidden="true"><span>EVERY CHAPTER HAS A DATE.</span><div><b>THE<br>BRAND<br><i>diary.</i></b><small>WONYOUNG<br>FASHION / BEAUTY / LIFE</small><em>✳</em></div><span>记下相遇，也留住来时的路。</span></div></section>
+    <aside class="brands-note wrap" aria-label="身份与时效说明"><span aria-hidden="true">✧</span><div><p><strong>记录合作，不猜合约。</strong> 身份、产品线和地区按来源分别标注；出席活动不直接视为代言。没有明确结束公告时，结束日期保持“未公开”，也不自动显示为“现任”。</p><p>“近 180 天有合作资料”只描述本页证据的新近程度；超过 180 天会提示复核，<strong>不代表解约</strong>。资料整理截至 <time datetime="{{UPDATED_ISO}}">{{UPDATED}}</time>，首批收录仍在补充中。</p></div></aside>
+    <section class="brands-collection wrap" aria-label="浏览品牌合作">
+      <form class="brands-controls" id="brands-controls" role="search" hidden><div class="brands-time-travel"><div><p class="eyebrow">TURN BACK THE PAGE</p><h2>想回到哪一天？</h2><p>只看截至所选日期已公开的记录。</p></div><label for="brands-asof">查看日期<input type="date" id="brands-asof" min="2021-01-01" max="{{UPDATED_ISO}}" value="{{UPDATED_ISO}}" required></label><button type="button" class="button secondary" id="brands-today">看今天</button></div><div class="brands-filters"><label class="brands-search">搜索品牌或身份<input type="search" id="brands-search" maxlength="120" placeholder="品牌、中英文名、Muse、亚太…" autocomplete="off"></label><label>品牌类别<select id="brands-category"><option value="all">全部类别</option>{{CATEGORIES}}</select></label><label>资料情况<select id="brands-state"><option value="all">全部记录</option><option value="recent">近 180 天有合作资料</option><option value="review">近况待复核</option><option value="appearance">仅活动记录</option><option value="ended">官方已公布结束</option><option value="ending">已公告将结束</option><option value="announced">已官宣 · 尚未生效</option></select></label><label>排列顺序<select id="brands-order"><option value="newest">最近资料在前</option><option value="oldest">最早记录在前</option><option value="name">按品牌名称</option></select></label></div></form>
+      <div class="brands-results"><div><p id="brands-count" role="status" aria-live="polite">{{TOTAL}} 份档案 · 查看日期 {{UPDATED}}</p><p id="brands-coverage">首批资料持续补充；历史记录与当前合同状态分别理解。</p></div><button type="button" class="text-link" id="brands-reset" hidden>回到今天，清除筛选 ↻</button></div>
+      <noscript><p class="brands-noscript">下方展示截至 {{UPDATED}} 整理的全部记录与来源。启用 JavaScript 后，可按日期回看、筛选，并按查看日期提示资料是否需要复核。</p></noscript>
+      <div class="brands-grid" id="brands-grid">{{CARDS}}</div><div class="brands-empty" id="brands-empty" hidden><span aria-hidden="true">♡</span><h2>这一页，暂时还没有记录。</h2><p>换个品牌或查看日期，继续翻一翻。<br>未收录，不代表没有发生。</p><button class="button secondary" type="button" id="brands-empty-reset">回到今天，看看全部 ↗</button></div>
+    </section>
+    <section class="brands-afterword wrap"><p class="eyebrow">THE STORY CONTINUES</p><h2>相遇会更新，来路也值得收藏。</h2><p>有新的官宣，就在原品牌下追加；身份或地区变化，保留此前的记录。若有明确的结束公告，会附来源标注，旧资料仍可回看。页面会随查看日期提示旧资料需要复核；新的合作消息仍需核对来源后补录。</p><p>日期优先采用官方资料；媒体报道会另作标识。欢迎在<a href="./#guestbook">留言板</a>留下品牌名称、日期与公开来源，一起把这份档案补得更完整。</p><a class="text-link" href="./timeline.html">沿着时间，看看镜头之外的她 ↗</a></section>
+  </main>
+  <footer class="footer wrap"><div class="footer-main"><a class="footer-brand" href="./">Dear Wonyoung<span>♡</span></a><p>因为喜欢，所以分享。<br>本站由粉丝独立制作，与艺人及所属公司无官方关联。</p><a class="back-top" href="#brands-main">回到顶部 ↑</a></div><div class="footer-bottom"><span>20040831.xyz</span><span>A LITTLE ARCHIVE, A LOT OF LOVE.</span><span>WITH LOVE, ALWAYS.</span></div></footer>
+  <script type="application/json" id="brands-data">{{DATA}}</script>
+</body>
+</html>
