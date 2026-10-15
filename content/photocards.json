@@ -1,0 +1,1751 @@
+{
+  "updated": "2026-10-15",
+  "boards": {
+    "izone": {
+      "asset": "izone-to-wave-oopsyhyuck.jpg",
+      "url": "https://pbs.twimg.com/media/Fxkb1tzX0AILk1m.jpg",
+      "source": "https://x.com/oopsyhyuck/status/1664392160798490624",
+      "author": "@oopsyhyuck",
+      "width": 692,
+      "height": 1200,
+      "note": "跨专辑合集：包含 IZ*ONE 韩专与 IVE 早期专辑；请按图中的专辑分区对照。",
+      "kind": "personal"
+    },
+    "early": {
+      "asset": "ive-early-ivebluefrost.jpg",
+      "url": "https://i.pinimg.com/736x/aa/ce/a2/aacea20c55f7ef6d99f57f476746b79e.jpg",
+      "source": "https://co.pinterest.com/pin/wonyoung-all-albums-photocards-template--336362665931310854/",
+      "author": "@ivebluefrost（原图署名；Pinterest 存档）",
+      "width": 736,
+      "height": 1308,
+      "note": "包含 ELEVEN、LOVE DIVE、After LIKE 的基础卡；ELEVEN 的 ID 卡为预售项。",
+      "kind": "personal"
+    },
+    "2023": {
+      "asset": "ive-2023-yangwonsky.jpg",
+      "url": "https://pbs.twimg.com/media/GGDwGfqWkAAs1AE.jpg",
+      "source": "https://x.com/yangwonsky/status/1756667851987947828",
+      "author": "@yangwonsky",
+      "width": 675,
+      "height": 1200,
+      "note": "合集包含 I’VE IVE、WAVE、I’VE MINE；特典按作者当时整理的批次展示。",
+      "kind": "personal"
+    },
+    "switch": {
+      "asset": "switch-yangwonsky.jpg",
+      "url": "https://pbs.twimg.com/media/GNNMlpCWQAABWqJ.jpg",
+      "source": "https://x.com/yangwonsky/status/1788857690799706539",
+      "author": "@yangwonsky",
+      "width": 675,
+      "height": 1200,
+      "note": "含基础内封、透卡、店特、周边与打歌卡分区；本页分别统计，避免混算。",
+      "kind": "personal"
+    },
+    "empathy": {
+      "asset": "empathy-yangwonsky.jpg",
+      "url": "https://pbs.twimg.com/media/GmPJMGOWsAAuZMo.jpg",
+      "source": "https://x.com/yangwonsky/status/1901584690156392766",
+      "author": "@yangwonsky",
+      "width": 675,
+      "height": 1200,
+      "note": "含专辑卡、打歌卡及店特；模糊或未揭晓卡面不作为已确认卡面计数。",
+      "kind": "personal"
+    },
+    "alive": {
+      "asset": "alive-yangwonsky.jpg",
+      "url": "https://pbs.twimg.com/media/Gg8n-wtWEAIu2mg.jpg",
+      "source": "https://x.com/yangwonsky/status/1877763535704297661",
+      "author": "@yangwonsky",
+      "width": 743,
+      "height": 1200,
+      "note": "个人卡与双人卡分开列出；会场、线下活动与店特以原图标注的场次为准。",
+      "kind": "personal"
+    },
+    "revive": {
+      "asset": "revive-lily.jpg",
+      "url": "https://pbs.twimg.com/media/HC5KUjIbAAAvt9f.jpg",
+      "source": "https://x.com/LILY_221019/status/2030642205975867551",
+      "author": "@LILY_221019",
+      "width": 1065,
+      "height": 1200,
+      "note": "本图板包含八类专辑卡及部分店特；未展示的后续追加版本仍需另行核对。",
+      "kind": "personal"
+    },
+    "2025": {
+      "asset": "ive-albums-yunahsrem.jpg",
+      "url": "https://i.pinimg.com/736x/fc/29/ae/fc29ae5e5df77c97bb08225ff17e6a68.jpg",
+      "source": "https://nz.pinterest.com/pin/725853664983825613/",
+      "author": "@yunahsrem（原图署名；Pinterest 存档）",
+      "width": 736,
+      "height": 1075,
+      "note": "多专辑基础卡合集。图中未出现的版本不推算为零；Be Alright 只展示部分版本。",
+      "kind": "personal"
+    },
+    "lucid": {
+      "asset": "lucid-dream-official-benefits.jpg",
+      "url": "https://pbs.twimg.com/media/HHIkBVybUAABu4W.jpg",
+      "source": "https://x.com/IVEstarship_JP/status/2050138159145467923",
+      "author": "IVE 日本官方 @IVEstarship_JP",
+      "width": 741,
+      "height": 1200,
+      "note": "全员店铺特典配置图，包含其他形式的特典；不是元英个人卡面全集。个人卡板仍待补充。",
+      "kind": "configuration"
+    }
+  },
+  "albums": [
+    {
+      "id": "color-iz",
+      "title": "COLOR*IZ",
+      "date": "2018-10-29",
+      "era": "izone",
+      "market": "kr",
+      "status": "released",
+      "board": "izone",
+      "focus": 27,
+      "rows": [
+        {
+          "label": "Rose / Color 个人卡 A",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Rose / Color 个人卡 B",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "KIHNO · Color / Rose",
+          "count": 2,
+          "category": "special",
+          "note": ""
+        }
+      ],
+      "summary": "从玫瑰人生开始，收藏最初的两张个人内封。",
+      "note": "此处仅核对个人小卡与 KIHNO 卡；含元英的双人、三人卡及 CD 盘面未混入数量。",
+      "tags": [
+        "COLOR*IZ",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IZ*ONE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Iz%2AOne_discography"
+        },
+        {
+          "label": "@oopsyhyuck · 原图与版本标注",
+          "url": "https://x.com/oopsyhyuck/status/1664392160798490624"
+        }
+      ]
+    },
+    {
+      "id": "suki-to-iwasetai",
+      "title": "Suki to Iwasetai",
+      "date": "2019-02-06",
+      "era": "izone",
+      "market": "jp",
+      "status": "released",
+      "board": null,
+      "focus": 50,
+      "rows": [
+        {
+          "label": "通常盘 Type A / B 共通卡",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "WIZ*ONE 盘卡",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "成员盘卡",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        }
+      ],
+      "summary": "日本出道单曲，先按三套卡池区分。",
+      "note": "收藏指南说明三套各有十二位成员一人一卡；元英个人卡板待补。",
+      "tags": [
+        "Suki to Iwasetai",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IZ*ONE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Iz%2AOne_discography"
+        },
+        {
+          "label": "KPOP COLLECTORS GUIDE · 三套卡池说明",
+          "url": "https://kpopcollectorsguide.weebly.com/izone.html"
+        }
+      ]
+    },
+    {
+      "id": "heart-iz",
+      "title": "HEART*IZ",
+      "date": "2019-04-01",
+      "era": "izone",
+      "market": "kr",
+      "status": "released",
+      "board": "izone",
+      "focus": 28,
+      "rows": [
+        {
+          "label": "Violeta 个人卡",
+          "count": 2,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Sapphire 个人卡",
+          "count": 2,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "KIHNO · Violeta / Sapphire",
+          "count": 2,
+          "category": "special",
+          "note": ""
+        }
+      ],
+      "summary": "Violeta 与 Sapphire 两种概念，分开整理个人卡与 KIHNO。",
+      "note": "封套与迷你写真本不计为小卡。",
+      "tags": [
+        "HEART*IZ",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IZ*ONE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Iz%2AOne_discography"
+        },
+        {
+          "label": "@oopsyhyuck · 原图与版本标注",
+          "url": "https://x.com/oopsyhyuck/status/1664392160798490624"
+        }
+      ]
+    },
+    {
+      "id": "buenos-aires",
+      "title": "Buenos Aires",
+      "date": "2019-06-26",
+      "era": "izone",
+      "market": "jp",
+      "status": "released",
+      "board": null,
+      "focus": 50,
+      "rows": [
+        {
+          "label": "通常盘与 WIZ*ONE 盘个人卡",
+          "count": null,
+          "category": "album",
+          "note": ""
+        }
+      ],
+      "summary": "第二张日单的版本先建立目录，个人卡板与款数继续核对。",
+      "note": "店铺生写真、会场照片与专辑内封需要分开确认。",
+      "tags": [
+        "Buenos Aires",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IZ*ONE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Iz%2AOne_discography"
+        },
+        {
+          "label": "KPOP COLLECTORS GUIDE · 日本发行版本",
+          "url": "https://kpopcollectorsguide.weebly.com/izone.html"
+        }
+      ]
+    },
+    {
+      "id": "vampire",
+      "title": "Vampire",
+      "date": "2019-09-25",
+      "era": "izone",
+      "market": "jp",
+      "status": "released",
+      "board": null,
+      "focus": 50,
+      "rows": [
+        {
+          "label": "个人小卡 / 生写真",
+          "count": null,
+          "category": "album",
+          "note": ""
+        }
+      ],
+      "summary": "Vampire 时期的日单收集入口。",
+      "note": "保留待核状态，尚未取得可靠的元英个人分版本图板。",
+      "tags": [
+        "Vampire",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IZ*ONE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Iz%2AOne_discography"
+        }
+      ]
+    },
+    {
+      "id": "bloom-iz",
+      "title": "BLOOM*IZ",
+      "date": "2020-02-17",
+      "era": "izone",
+      "market": "kr",
+      "status": "released",
+      "board": "izone",
+      "focus": 41,
+      "rows": [
+        {
+          "label": "I WAS",
+          "count": 5,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "I AM",
+          "count": 5,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "I WILL",
+          "count": 5,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "KIHNO",
+          "count": 2,
+          "category": "special",
+          "note": ""
+        }
+      ],
+      "summary": "I WAS、I AM、I WILL 三种版本，按图板各列五款个人卡。",
+      "note": "本页数量来自该张个人卡图板，未将明信片、留言卡和团体卡合并。",
+      "tags": [
+        "BLOOM*IZ",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IZ*ONE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Iz%2AOne_discography"
+        },
+        {
+          "label": "@oopsyhyuck · 原图与版本标注",
+          "url": "https://x.com/oopsyhyuck/status/1664392160798490624"
+        }
+      ]
+    },
+    {
+      "id": "oneiric-diary",
+      "title": "Oneiric Diary",
+      "date": "2020-06-15",
+      "era": "izone",
+      "market": "kr",
+      "status": "released",
+      "board": "izone",
+      "focus": 53,
+      "rows": [
+        {
+          "label": "Diary",
+          "count": 3,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Oneiric",
+          "count": 3,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "3D",
+          "count": 3,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "KIHNO",
+          "count": 2,
+          "category": "special",
+          "note": ""
+        }
+      ],
+      "summary": "把幻想日记的三个版本，和 KIHNO 特殊版本分别归档。",
+      "note": "只按图板中列出的小卡计数；其他大尺寸附赠物另列不算入。",
+      "tags": [
+        "Oneiric Diary",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IZ*ONE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Iz%2AOne_discography"
+        },
+        {
+          "label": "@oopsyhyuck · 原图与版本标注",
+          "url": "https://x.com/oopsyhyuck/status/1664392160798490624"
+        }
+      ]
+    },
+    {
+      "id": "twelve",
+      "title": "Twelve",
+      "date": "2020-10-21",
+      "era": "izone",
+      "market": "jp",
+      "status": "released",
+      "board": null,
+      "focus": 50,
+      "rows": [
+        {
+          "label": "通常盘 A / B 共通首批生写真",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "WIZ*ONE 其他版本",
+          "count": null,
+          "category": "album",
+          "note": ""
+        }
+      ],
+      "summary": "首张日本正规专辑，区分通常盘与 WIZ*ONE 版本。",
+      "note": "环球官方列通常盘首批封入随机一张、全十二种；对应十二成员的个人款。WIZ*ONE 版本未合并推算。",
+      "tags": [
+        "Twelve",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IZ*ONE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Iz%2AOne_discography"
+        },
+        {
+          "label": "UNIVERSAL MUSIC STORE · 通常盘 Type B 配置",
+          "url": "https://store.universal-music.co.jp/products/upch20562"
+        }
+      ]
+    },
+    {
+      "id": "one-reeler",
+      "title": "One-reeler / Act IV",
+      "date": "2020-12-07",
+      "era": "izone",
+      "market": "kr",
+      "status": "released",
+      "board": "izone",
+      "focus": 63,
+      "rows": [
+        {
+          "label": "Scene #1",
+          "count": 3,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Scene #2",
+          "count": 3,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Scene #3",
+          "count": 3,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "KIHNO",
+          "count": 1,
+          "category": "special",
+          "note": ""
+        }
+      ],
+      "summary": "用三幕画面留住 Panorama 时期。",
+      "note": "预售透明卡、AR 等附赠项没有并入本图板的小卡款数。",
+      "tags": [
+        "One-reeler / Act IV",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IZ*ONE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Iz%2AOne_discography"
+        },
+        {
+          "label": "@oopsyhyuck · 原图与版本标注",
+          "url": "https://x.com/oopsyhyuck/status/1664392160798490624"
+        }
+      ]
+    },
+    {
+      "id": "eleven",
+      "title": "ELEVEN",
+      "date": "2021-12-01",
+      "era": "ive",
+      "market": "kr",
+      "status": "released",
+      "board": "early",
+      "focus": 28,
+      "rows": [
+        {
+          "label": "Ver.1",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Ver.2",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "首批 ID 卡",
+          "count": 1,
+          "category": "special",
+          "note": ""
+        }
+      ],
+      "summary": "IVE 的故事起点，两款基础卡与首批 ID 卡分开看。",
+      "note": "ID 卡单列为特殊附赠，不当作第三张普卡。",
+      "tags": [
+        "ELEVEN",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IVE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Ive_discography"
+        },
+        {
+          "label": "@ivebluefrost（原图署名；Pinterest 存档） · 原图与版本标注",
+          "url": "https://co.pinterest.com/pin/wonyoung-all-albums-photocards-template--336362665931310854/"
+        }
+      ]
+    },
+    {
+      "id": "love-dive",
+      "title": "LOVE DIVE",
+      "date": "2022-04-05",
+      "era": "ive",
+      "market": "kr",
+      "status": "released",
+      "board": "early",
+      "focus": 56,
+      "rows": [
+        {
+          "label": "Ver.1",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Ver.2",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Ver.3",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Jewel Case",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        }
+      ],
+      "summary": "四种基础卡，收藏 LOVE DIVE 的不同造型。",
+      "note": "其他首批附赠和店铺特典没有用未核实的数量补齐。",
+      "tags": [
+        "LOVE DIVE",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IVE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Ive_discography"
+        },
+        {
+          "label": "@ivebluefrost（原图署名；Pinterest 存档） · 原图与版本标注",
+          "url": "https://co.pinterest.com/pin/wonyoung-all-albums-photocards-template--336362665931310854/"
+        }
+      ]
+    },
+    {
+      "id": "after-like",
+      "title": "After LIKE",
+      "date": "2022-08-22",
+      "era": "ive",
+      "market": "kr",
+      "status": "released",
+      "board": "early",
+      "focus": 84,
+      "rows": [
+        {
+          "label": "Ver.1",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Ver.2",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Ver.3",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Jewel Case",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "首批 Circle Card",
+          "count": 1,
+          "category": "special",
+          "note": ""
+        }
+      ],
+      "summary": "三张写真版本与 Jewel Case 卡，把明亮的夏日收在一起。",
+      "note": "圆卡由跨专辑合集核对，属于特殊卡；不计进四款基础内封。",
+      "tags": [
+        "After LIKE",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IVE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Ive_discography"
+        },
+        {
+          "label": "@oopsyhyuck · 首批圆卡图示",
+          "url": "https://x.com/oopsyhyuck/status/1664392160798490624"
+        },
+        {
+          "label": "@ivebluefrost（原图署名；Pinterest 存档） · 原图与版本标注",
+          "url": "https://co.pinterest.com/pin/wonyoung-all-albums-photocards-template--336362665931310854/"
+        }
+      ]
+    },
+    {
+      "id": "eleven-jp",
+      "title": "ELEVEN — Japanese ver.",
+      "date": "2022-10-19",
+      "era": "ive",
+      "market": "jp",
+      "status": "released",
+      "board": "izone",
+      "focus": 77,
+      "rows": [
+        {
+          "label": "I / Imagine",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "V / Visual",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "E / Essential",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        }
+      ],
+      "summary": "日本出道的三种概念卡，独立于韩版 ELEVEN 整理。",
+      "note": "按图板所示的三款卡面计数，不将不同包装的数量等同于卡面款数。",
+      "tags": [
+        "ELEVEN — Japanese ver.",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IVE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Ive_discography"
+        },
+        {
+          "label": "@oopsyhyuck · 原图与版本标注",
+          "url": "https://x.com/oopsyhyuck/status/1664392160798490624"
+        }
+      ]
+    },
+    {
+      "id": "ive-ive",
+      "title": "I’VE IVE",
+      "date": "2023-04-10",
+      "era": "ive",
+      "market": "kr",
+      "status": "released",
+      "board": "2023",
+      "focus": 25,
+      "rows": [
+        {
+          "label": "Ver.I",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Ver.V",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Ver.E",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Jewel Case",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Special",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Vinyl",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "STARSHIP SQUARE",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Ktown4u",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "MMT",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Apple Music 1.0",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Withmuu 1.0",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        }
+      ],
+      "summary": "I AM 时期，从基础内封走到不同版本和店特。",
+      "note": "Vinyl 为后续版本，一并归在本次回归；本页店特条目只是一部分。",
+      "tags": [
+        "I’VE IVE",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IVE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Ive_discography"
+        },
+        {
+          "label": "@yangwonsky · 原图与版本标注",
+          "url": "https://x.com/yangwonsky/status/1756667851987947828"
+        }
+      ]
+    },
+    {
+      "id": "wave",
+      "title": "WAVE",
+      "date": "2023-05-31",
+      "era": "ive",
+      "market": "jp",
+      "status": "released",
+      "board": "2023",
+      "focus": 45,
+      "rows": [
+        {
+          "label": "初回 A / B 共通卡",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "初回 C",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "通常盘",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "DIVE 盘",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Tower Records",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "HMV",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Sony Music",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        }
+      ],
+      "summary": "WAVE 日专，A / B 共通卡只计为一种卡面。",
+      "note": "不要把同一款小卡因出现在两种包装里重复计算。",
+      "tags": [
+        "WAVE",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IVE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Ive_discography"
+        },
+        {
+          "label": "@yangwonsky · 原图与版本标注",
+          "url": "https://x.com/yangwonsky/status/1756667851987947828"
+        }
+      ]
+    },
+    {
+      "id": "ive-mine",
+      "title": "I’VE MINE",
+      "date": "2023-10-13",
+      "era": "ive",
+      "market": "kr",
+      "status": "released",
+      "board": "2023",
+      "focus": 68,
+      "rows": [
+        {
+          "label": "Either Way",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Off The Record",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Baddie",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Loved IVE",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Digipack",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "PLVE",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "STARSHIP SQUARE",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Soundwave 1.0",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Withmuu 1.0",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Ktown4u 1.0",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Makestar 1.0",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Tower Records",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        }
+      ],
+      "summary": "三首主打，六类基础卡，再按店铺批次看特典。",
+      "note": "原图还含后续店特、签售与打歌项；未逐项核实的部分不直接算进统计。",
+      "tags": [
+        "I’VE MINE",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IVE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Ive_discography"
+        },
+        {
+          "label": "@yangwonsky · 原图与版本标注",
+          "url": "https://x.com/yangwonsky/status/1756667851987947828"
+        }
+      ]
+    },
+    {
+      "id": "ive-switch",
+      "title": "IVE SWITCH",
+      "date": "2024-04-29",
+      "era": "ive",
+      "market": "kr",
+      "status": "released",
+      "board": "switch",
+      "focus": 26,
+      "rows": [
+        {
+          "label": "ON",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "OFF",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "SPIN-OFF",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Loved IVE",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Digipack",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "PLVE",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Lenticular 透卡",
+          "count": 1,
+          "category": "special",
+          "note": ""
+        },
+        {
+          "label": "STARSHIP SQUARE",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "SSQ Digipack",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "SSQ Loved IVE",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Soundwave 1.0",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Withmuu 1.0",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Apple Music 1.0",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Makestar 1.0",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "KakaoTalk",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "StarRiver 1.0",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        }
+      ],
+      "summary": "三种写真概念之外，把透卡与店铺特典单独列清。",
+      "note": "图板底部的周边和打歌卡不混入基础内封。",
+      "tags": [
+        "IVE SWITCH",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IVE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Ive_discography"
+        },
+        {
+          "label": "@yangwonsky · 原图与版本标注",
+          "url": "https://x.com/yangwonsky/status/1788857690799706539"
+        }
+      ]
+    },
+    {
+      "id": "alive",
+      "title": "ALIVE",
+      "date": "2024-08-28",
+      "era": "ive",
+      "market": "jp",
+      "status": "released",
+      "board": "alive",
+      "focus": 29,
+      "rows": [
+        {
+          "label": "初回 A",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "初回 B",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "通常盘",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Solo",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Limited",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Tower Records",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "HMV",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Sony Music Lucky Draw",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Sony Music Clear Photocard",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        }
+      ],
+      "summary": "日专个人卡图板，保留会场与双人卡的原始分区。",
+      "note": "本页的数字只统计个人条目；原图中的双人卡与后续活动卡需要按组合另核。",
+      "tags": [
+        "ALIVE",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IVE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Ive_discography"
+        },
+        {
+          "label": "@yangwonsky · 原图与版本标注",
+          "url": "https://x.com/yangwonsky/status/1877763535704297661"
+        }
+      ]
+    },
+    {
+      "id": "ive-empathy",
+      "title": "IVE EMPATHY",
+      "date": "2025-02-03",
+      "era": "ive",
+      "market": "kr",
+      "status": "released",
+      "board": "empathy",
+      "focus": 25,
+      "rows": [
+        {
+          "label": "ME",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "YOU",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "AND US",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Loved IVE",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Digipack",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "PLVE",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "MD Limited",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "STARSHIP SQUARE",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "SSQ Digipack",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "SSQ Loved IVE",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Soundwave",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Withmuu",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Apple Music",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Makestar",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "StarRiver",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Studio Choom × Withmuu",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "MMT VCE",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        }
+      ],
+      "summary": "从 ME、YOU 到 AND US，一起整理这次回归的基础卡与已核对店特。",
+      "note": "打歌卡与店特的新轮次继续按批次细分；图片模糊的预览不当作已核对卡面。",
+      "tags": [
+        "IVE EMPATHY",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IVE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Ive_discography"
+        },
+        {
+          "label": "@yangwonsky · 原图与版本标注",
+          "url": "https://x.com/yangwonsky/status/1901584690156392766"
+        }
+      ]
+    },
+    {
+      "id": "be-alright",
+      "title": "Be Alright",
+      "date": "2025-07-30",
+      "era": "ive",
+      "market": "jp",
+      "status": "released",
+      "board": "2025",
+      "focus": 91,
+      "rows": [
+        {
+          "label": "初回 I",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "初回 V",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "初回 E",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "DIVE",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Solo 封入卡",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "通常盘其他封入款",
+          "count": null,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "A!SMART Selfie A",
+          "count": 1,
+          "category": "benefit",
+          "note": ""
+        }
+      ],
+      "summary": "Be Alright 的个人卡，图板已展示四类，另核对 Solo 盘配置。",
+      "note": "合集未展示 Solo 卡面；其配置来自 A!SMART 官方商品页。尚未核对的通常盘款数保留待核。",
+      "tags": [
+        "Be Alright",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IVE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Ive_discography"
+        },
+        {
+          "label": "A!SMART · 元英 Solo 盘与特典配置",
+          "url": "https://www.asmart.jp/en/shop/ive/product/10046522"
+        },
+        {
+          "label": "@yunahsrem（原图署名；Pinterest 存档） · 原图与版本标注",
+          "url": "https://nz.pinterest.com/pin/725853664983825613/"
+        }
+      ]
+    },
+    {
+      "id": "ive-secret",
+      "title": "IVE SECRET",
+      "date": "2025-08-25",
+      "era": "ive",
+      "market": "kr",
+      "status": "released",
+      "board": "2025",
+      "focus": 100,
+      "rows": [
+        {
+          "label": "SHH!",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "GASP!",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "PSST!",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Loved IVE",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Digipack",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Evil Cupid",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "MD",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        }
+      ],
+      "summary": "七类基础卡，收藏 XOXZ 时期的新造型。",
+      "note": "本图板展示基础卡；单独的元英店特图板与批次仍待补全。",
+      "tags": [
+        "IVE SECRET",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IVE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Ive_discography"
+        },
+        {
+          "label": "@yunahsrem（原图署名；Pinterest 存档） · 原图与版本标注",
+          "url": "https://nz.pinterest.com/pin/725853664983825613/"
+        }
+      ]
+    },
+    {
+      "id": "revive",
+      "title": "REVIVE+",
+      "date": "2026-02-23",
+      "era": "ive",
+      "market": "kr",
+      "status": "released",
+      "board": "revive",
+      "focus": 33,
+      "rows": [
+        {
+          "label": "BANGERS",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "CHALLENGERS",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "SPOILERS",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Loved IVE",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "Digipack",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "MINI MINI",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "PETIT-IVE",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "MD",
+          "count": 1,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "后续 Vinyl",
+          "count": null,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "SSQ 写真版",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "SSQ Loved IVE",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "SSQ Digipack",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Withmuu 1.0",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Apple Music 1.0",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Music Korea 1.0",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "US Exclusive",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Target",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Barnes & Noble",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        },
+        {
+          "label": "Ktown4u",
+          "count": 1,
+          "category": "benefit",
+          "note": "仅统计图板中可核对的一款；后续批次另计。"
+        }
+      ],
+      "summary": "八类已展示的专辑卡，和可直接对照的首批店铺特典。",
+      "note": "原作者图板有“Complete List”字样，本页仍按快照处理；模糊预览与后续追加版本不据此宣称全套。",
+      "tags": [
+        "REVIVE+",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IVE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Ive_discography"
+        },
+        {
+          "label": "@LILY_221019 · 原图与版本标注",
+          "url": "https://x.com/LILY_221019/status/2030642205975867551"
+        }
+      ]
+    },
+    {
+      "id": "lucid-dream",
+      "title": "LUCID DREAM",
+      "date": "2026-05-27",
+      "era": "ive",
+      "market": "jp",
+      "status": "released",
+      "board": "lucid",
+      "focus": 50,
+      "rows": [
+        {
+          "label": "专辑个人内封",
+          "count": null,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "A!SMART Selfie",
+          "count": 1,
+          "category": "benefit",
+          "note": "官方配置为六成员单人随机卡池，元英一款；部分预览模糊，款数不代表清晰卡面已公开。"
+        },
+        {
+          "label": "Tower Records Selfie",
+          "count": 1,
+          "category": "benefit",
+          "note": "官方配置为六成员单人随机卡池，元英一款；部分预览模糊，款数不代表清晰卡面已公开。"
+        },
+        {
+          "label": "HMV / Loppi Selfie",
+          "count": 1,
+          "category": "benefit",
+          "note": "官方配置为六成员单人随机卡池，元英一款；部分预览模糊，款数不代表清晰卡面已公开。"
+        },
+        {
+          "label": "Sony Music Clear Photocard",
+          "count": 1,
+          "category": "benefit",
+          "note": "官方配置为六成员单人随机卡池，元英一款；部分预览模糊，款数不代表清晰卡面已公开。"
+        }
+      ],
+      "summary": "先收录日方官方公布的店特配置，再补元英个人卡面。",
+      "note": "此图为全员配置说明，四家均公布六成员单人卡池；其他海报、徽章和文件夹不当作小卡计数。",
+      "tags": [
+        "LUCID DREAM",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IVE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Ive_discography"
+        },
+        {
+          "label": "IVE 日本官方 @IVEstarship_JP · 原图与版本标注",
+          "url": "https://x.com/IVEstarship_JP/status/2050138159145467923"
+        }
+      ]
+    },
+    {
+      "id": "looks-can-kill",
+      "title": "Looks Can Kill",
+      "date": "2026-10-26",
+      "era": "ive",
+      "market": "kr",
+      "status": "announced",
+      "board": null,
+      "focus": 50,
+      "rows": [
+        {
+          "label": "GIRL HERO 内封",
+          "count": null,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "HERO COMICS 内封",
+          "count": null,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "HERO ON SET 内封",
+          "count": null,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "LOVED IVE 内封",
+          "count": null,
+          "category": "album",
+          "note": ""
+        },
+        {
+          "label": "MAKESTAR 预售卡",
+          "count": null,
+          "category": "benefit",
+          "note": ""
+        }
+      ],
+      "summary": "已官宣的下一次回归，先保留版本和预售来源。",
+      "note": "截至 2026.10.15 尚未正式发售；已知随机卡池不等于已确认的元英卡面，款数暂不计入。",
+      "tags": [
+        "Looks Can Kill",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "sources": [
+        {
+          "label": "IVE · 发行日期参考",
+          "url": "https://en.wikipedia.org/wiki/Ive_discography"
+        },
+        {
+          "label": "MAKESTAR · 发售日、版本与预售说明",
+          "url": "https://www.makestar.com/product/20892"
+        }
+      ]
+    }
+  ]
+}
