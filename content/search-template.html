@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#fbf7f2">
+  <meta name="description" content="搜索张元英安利站的入坑推荐、成长时间线、小卡图鉴与品牌合作，按栏目和年份寻找喜欢的资料。">
+  <meta property="og:title" content="全站搜索 · Dear Wonyoung"><meta property="og:description" content="一个名字、一个年份、一次心动。把喜欢的资料，一起找到。"><meta property="og:type" content="website"><meta property="og:url" content="https://20040831.xyz/search.html">
+  <link rel="canonical" href="https://20040831.xyz/search.html"><link rel="icon" type="image/svg+xml" href="./assets/favicon.svg"><link rel="stylesheet" href="./styles.css"><link rel="stylesheet" href="./discovery.css"><script type="module" src="./search.js"></script>
+  <title>全站搜索 · Dear Wonyoung</title>
+</head>
+<body class="search-page">
+  <a class="skip-link" href="#search-main">跳到全站搜索</a>
+  <header class="header"><div class="header-inner wrap"><a class="brand" href="./" aria-label="Dear Wonyoung 首页"><span class="brand-flower" aria-hidden="true">✳</span><span>DEAR<br>WONYOUNG<span class="brand-dot">.</span></span></a><nav aria-label="主导航"><a href="./#about">初次见面</a><a href="./#watch">必看清单</a><a href="./timeline.html">成长时间线</a><a href="./photocards.html">小卡图鉴</a><a href="./brands.html">品牌合作</a><a href="./#guestbook">留言板</a><a href="./search.html" aria-current="page">全站搜索</a></nav></div></header>
+  <main id="search-main" class="wrap">
+    <section class="search-hero" aria-labelledby="search-title"><p class="eyebrow">DEAR WONYOUNG / FIND YOUR NEXT FAVORITE</p><h1 id="search-title">把喜欢的，<em>一起找到。</em></h1><p>一个名字、一个年份，或一段熟悉的旋律。<br>从 {{TOTAL}} 条站内资料里，找到想继续认识的她。</p></section>
+    <form class="global-search-form" id="global-search-form" role="search" hidden><label for="global-query" class="sr-only">搜索节目、专辑、品牌或关键词</label><div class="global-search-box"><span aria-hidden="true">⌕</span><input id="global-query" name="q" type="search" maxlength="120" placeholder="搜索节目、专辑、品牌或年份" autocomplete="off"><button type="submit" class="button primary">找一找 ↗</button></div><div class="search-chips" aria-label="试试这些关键词"><span>试着找找</span><button type="button" data-search-example="2024">2024</button><button type="button" data-search-example="IVE SWITCH">IVE SWITCH</button><button type="button" data-search-example="Miu Miu">Miu Miu</button><button type="button" data-search-example="中字">B 站中字</button></div><div class="global-search-controls"><div class="search-type-filters" role="group" aria-label="资料栏目"><button type="button" data-search-type="all" aria-pressed="true">全部 <span data-facet="all">{{TOTAL}}</span></button>{{TYPES}}</div><div class="search-selects"><label for="global-year"><span class="sr-only">资料年份</span><select id="global-year"><option value="all">全部资料年份</option>{{YEARS}}</select></label><label for="global-sort"><span class="sr-only">搜索结果排序</span><select id="global-sort"><option value="relevance">优先相关内容</option><option value="updated">最近站内更新</option><option value="newest">资料日期从新到旧</option><option value="oldest">资料日期从旧到新</option></select></label></div></div></form>
+    <div class="global-search-status"><div><p id="global-search-count" role="status" aria-live="polite">{{TOTAL}} 条资料，沿着喜欢慢慢找。</p><p>年份参考节目、发行或资料公开日期；站内收录与更新日期另列。品牌结果会回到对应资料日期。</p></div><button type="button" class="text-link" id="global-search-reset" hidden>清除筛选 ↻</button></div>
+    <noscript><p class="search-noscript">全部资料与链接都在下方，可以使用浏览器的“在页面中查找”。启用 JavaScript 后，可输入关键词并按栏目、年份筛选。</p></noscript>
+    <div class="search-results-grid" id="global-search-results">{{RESULTS}}</div><div class="global-search-empty" id="global-search-empty" hidden><span aria-hidden="true">♡</span><h2>这一个关键词，还在等新的相遇。</h2><p>试试更短的名字、中英文别名，或放宽栏目与年份。</p><button type="button" class="button secondary" id="global-search-empty-reset">看看全部资料 ↗</button></div>
+    <div class="search-more"><p id="global-search-shown" hidden></p><button type="button" class="button secondary" id="global-search-more" hidden>再翻一页 ↓</button></div>
+    <div class="search-followup"><p>有想补充的资料？欢迎在<a href="./#guestbook">留言板</a>留下标题与公开来源。</p><a class="text-link" href="./#latest">回到首页，看看最近更新 ↗</a></div>
+  </main>
+  <footer class="footer wrap"><div class="footer-main"><a class="footer-brand" href="./">Dear Wonyoung<span>♡</span></a><p>因为喜欢，所以分享。<br>本站由粉丝独立制作，与艺人及所属公司无官方关联。</p><a class="back-top" href="#search-main">回到顶部 ↑</a></div><div class="footer-bottom"><span>20040831.xyz</span><span>A LITTLE ARCHIVE, A LOT OF LOVE.</span><span>WITH LOVE, ALWAYS.</span></div></footer>
+  <script type="application/json" id="global-search-data">{{DATA}}</script>
+</body>
+</html>
