@@ -35,6 +35,7 @@ jobs:
           node scripts/build-timeline.mjs
           node scripts/build-photocards.mjs
           node scripts/build-brands.mjs
+          node scripts/build-albums.mjs
           node scripts/build-discovery.mjs
       - name: Check Pages publishing source
         env:

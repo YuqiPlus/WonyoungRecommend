@@ -312,6 +312,9 @@ details a { text-decoration:underline; text-underline-offset:3px; }
   html { scroll-padding-top:130px; }
 }
 @media (max-width:360px) { .header .header-inner nav { column-gap:6px; } }
+@media (max-width:480px) {
+  .header .header-inner nav { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:0 6px; }
+}
 
 .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; border:0; }
 .guestbook { border-bottom:1px solid var(--line); }

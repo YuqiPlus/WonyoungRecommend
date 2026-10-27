@@ -34,7 +34,7 @@ test('invalid counts, future release claims, duplicate IDs, unsafe sources and a
     d => { d.albums[0].rows[0].category = 'all'; },
     d => { d.albums[0].date = '2020-02-30'; },
     d => { d.albums[0].date = '2099-01-01'; },
-    d => { d.albums.find(album => album.status === 'announced').rows[0].count = 1; },
+    d => { d.albums[0].status = 'announced'; d.albums[0].date = '2099-01-01'; d.albums[0].rows[0].count = 1; },
     d => { d.albums[0].sources[0].url = 'javascript:alert(1)'; },
     d => { d.boards.izone.source = 'https://secret:password@example.com/'; },
     d => { d.boards.izone.asset = '../private.jpg'; },
@@ -51,7 +51,12 @@ test('all albums, counts, local full-size boards and credits are present without
   for (const board of Object.values(data.boards)) { assert.ok(html.includes(`href="./assets/photocards/${board.asset}"`)); assert.ok(html.includes(board.author)); }
   assert.doesNotMatch(html, /\{\{[A-Z_]+\}\}|<iframe/);
   assert.match(html, /不代表完整全卡数量/);
-  assert.match(html, /尚未发售/);
+  assert.equal(html.includes('尚未发售'), data.albums.some(album => album.status === 'announced'));
+  const planned = structuredClone(data);
+  planned.albums = [planned.albums[0]];
+  planned.albums[0].status = 'announced'; planned.albums[0].date = '2099-01-01';
+  planned.albums[0].rows.forEach(row => { row.count = null; });
+  assert.match(renderPhotocards(planned, template), /尚未发售/);
   const reverse = structuredClone(data); reverse.albums.reverse();
   assert.equal(renderPhotocards(reverse, template), html);
 });

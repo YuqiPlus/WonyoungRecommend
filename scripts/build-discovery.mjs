@@ -8,14 +8,15 @@ import { categories, eras, validateArchive, escapeHTML as esc } from './build-ti
 import { validatePhotocards, cardTypes } from './build-photocards.mjs';
 import { validateBrands, validDate, shanghaiToday, eventKinds } from '../site/brands-model.mjs';
 import { searchTypes } from '../site/search-model.mjs';
+import { validateAlbums, albumEras, albumMarkets, albumTypes, albumSearchText } from '../site/albums-model.mjs';
 
 const run = promisify(execFile);
 const root = fileURLToPath(new URL('../', import.meta.url));
 const pretty = date => date.replaceAll('-', '.');
-const routes = { picks: './#watch', timeline: './timeline.html', photocards: './photocards.html', brands: './brands.html' };
+const routes = { picks: './#watch', timeline: './timeline.html', albums: './albums.html', photocards: './photocards.html', brands: './brands.html' };
 const sourceFiles = {
   picks: ['content/home-template.html', 'site/index.html'],
-  timeline: ['content/timeline.json'], photocards: ['content/photocards.json'], brands: ['content/brands.json']
+  timeline: ['content/timeline.json'], albums: ['content/albums.json'], photocards: ['content/photocards.json'], brands: ['content/brands.json']
 };
 const plain = text => String(text).replace(/<[^>]*>/g, '').replace(/&(?:amp|lt|gt|quot|#39|nbsp);/g, item => ({ '&amp;': '&', '&lt;': '<', '&gt;': '>', '&quot;': '"', '&#39;': "'", '&nbsp;': ' ' })[item]).trim();
 const canonical = value => Array.isArray(value) ? value.map(canonical) : value && typeof value === 'object' ? Object.fromEntries(Object.keys(value).sort().map(key => [key, canonical(value[key])])) : value;
@@ -34,6 +35,12 @@ export function documentsFor(type, source) {
     });
   }
   const data = typeof source === 'string' ? JSON.parse(source) : source;
+  if (type === 'albums') return data.albums.map(album => ({
+    id: `albums:${album.id}`, type, title: album.title, subtitle: `${albumEras[album.era]} · ${albumMarkets[album.market]} · ${albumTypes[album.type]}`,
+    summary: `${album.summary} 附封面、${album.tracks.length} 首数字版曲目、官方收听与 MV。`,
+    date: album.date, year: album.date.slice(0, 4), dateLabel: '专辑发行', url: `./albums.html?year=${album.date.slice(0, 4)}#${album.id}`,
+    keywords: albumSearchText(album), record: album
+  }));
   if (type === 'timeline') return data.entries.map(entry => ({
     id: `timeline:${entry.id}`, type, title: entry.title, subtitle: entry.episode, summary: entry.summary,
     date: entry.date, year: entry.date.slice(0, 4), dateLabel: entry.dateType === 'broadcast' ? '节目播出' : '视频发布',
@@ -129,7 +136,7 @@ export async function buildCatalog(currentSources, siteUpdates, today = shanghai
 
 function validateLocalURL(value) {
   const url = new URL(value, 'https://20040831.xyz/');
-  if (!value.startsWith('./') || url.origin !== 'https://20040831.xyz' || !['/', '/timeline.html', '/photocards.html', '/brands.html', '/search.html'].includes(url.pathname) || !/^#[a-z0-9-]*$|^$/.test(url.hash)) throw new Error('Invalid internal destination');
+  if (!value.startsWith('./') || url.origin !== 'https://20040831.xyz' || !['/', '/timeline.html', '/albums.html', '/photocards.html', '/brands.html', '/search.html'].includes(url.pathname) || !/^#[a-z0-9-]*$|^$/.test(url.hash)) throw new Error('Invalid internal destination');
 }
 export function validateCatalog(documents) {
   const ids = new Set();
@@ -160,13 +167,14 @@ export function renderDiscovery(catalog, homeTemplate, searchTemplate) {
   return { home: render(homeTemplate), search: render(searchTemplate) };
 }
 async function main() {
-  const [home, timelineRaw, cardsRaw, brandsRaw, updatesRaw, search] = await Promise.all([
+  const [home, timelineRaw, cardsRaw, brandsRaw, updatesRaw, search, albumsRaw] = await Promise.all([
     readFile(new URL('../content/home-template.html', import.meta.url), 'utf8'), readFile(new URL('../content/timeline.json', import.meta.url), 'utf8'),
     readFile(new URL('../content/photocards.json', import.meta.url), 'utf8'), readFile(new URL('../content/brands.json', import.meta.url), 'utf8'),
-    readFile(new URL('../content/site-updates.json', import.meta.url), 'utf8'), readFile(new URL('../content/search-template.html', import.meta.url), 'utf8')
+    readFile(new URL('../content/site-updates.json', import.meta.url), 'utf8'), readFile(new URL('../content/search-template.html', import.meta.url), 'utf8'),
+    readFile(new URL('../content/albums.json', import.meta.url), 'utf8')
   ]);
-  validateArchive(JSON.parse(timelineRaw)); validatePhotocards(JSON.parse(cardsRaw)); validateBrands(JSON.parse(brandsRaw));
-  const catalog = await buildCatalog({ picks: home, timeline: timelineRaw, photocards: cardsRaw, brands: brandsRaw }, JSON.parse(updatesRaw));
+  validateArchive(JSON.parse(timelineRaw)); validatePhotocards(JSON.parse(cardsRaw)); validateBrands(JSON.parse(brandsRaw)); validateAlbums(JSON.parse(albumsRaw));
+  const catalog = await buildCatalog({ picks: home, timeline: timelineRaw, albums: albumsRaw, photocards: cardsRaw, brands: brandsRaw }, JSON.parse(updatesRaw));
   const rendered = renderDiscovery(catalog, home, search);
   await Promise.all([writeFile(new URL('../site/index.html', import.meta.url), rendered.home), writeFile(new URL('../site/search.html', import.meta.url), rendered.search)]);
   console.log(`Discovery generated: ${catalog.documents.length} searchable records, ${catalog.updates.length} dated site updates.`);

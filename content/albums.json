@@ -1,0 +1,2208 @@
+{
+  "updated": "2026-10-27",
+  "albums": [
+    {
+      "id": "color-iz",
+      "title": "COLOR*IZ",
+      "date": "2018-10-29",
+      "digitalDate": "2018-10-29",
+      "era": "izone",
+      "market": "kr",
+      "type": "ep",
+      "summary": "从第一抹玫瑰色开始，回到她第一次以 IZ*ONE 成员站上舞台的时刻。",
+      "aliases": [
+        "COLOR*IZ",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "COLOR*IZ",
+      "note": "曲目按 Apple Music 数字版 7 首列出，不含实体 CD 限定曲。",
+      "cover": {
+        "asset": "color-iz.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/7a/50/ac7a5028-425b-af8e-535b-f59dd4bedba0/8809603546906_Cover.jpg/600x600bb.jpg",
+        "credit": "℗ 2018 STONE MUSIC, OFF THE RECORD Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Colors",
+          "duration": 218,
+          "url": "https://music.apple.com/us/album/colors/1569280525?i=1569280528"
+        },
+        {
+          "number": 2,
+          "title": "O' My!",
+          "duration": 203,
+          "url": "https://music.apple.com/us/album/o-my/1569280525?i=1569280529"
+        },
+        {
+          "number": 3,
+          "title": "La Vie en Rose",
+          "duration": 219,
+          "url": "https://music.apple.com/us/album/la-vie-en-rose/1569280525?i=1569280531"
+        },
+        {
+          "number": 4,
+          "title": "Memory",
+          "duration": 203,
+          "url": "https://music.apple.com/us/album/memory/1569280525?i=1569280532"
+        },
+        {
+          "number": 5,
+          "title": "We Together (IZ*ONE Ver.)",
+          "duration": 226,
+          "url": "https://music.apple.com/us/album/we-together-iz-one-ver/1569280525?i=1569280868"
+        },
+        {
+          "number": 6,
+          "title": "Suki ni Nacchaudarou? (IZ*ONE Ver.)",
+          "duration": 249,
+          "url": "https://music.apple.com/us/album/suki-ni-nacchaudarou-iz-one-ver/1569280525?i=1569280872"
+        },
+        {
+          "number": 7,
+          "title": "Yume wo Miteiru Aida (IZ*ONE Ver.)",
+          "duration": 209,
+          "url": "https://music.apple.com/us/album/yume-wo-miteiru-aida-iz-one-ver/1569280525?i=1569280878"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "La Vie en Rose"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/color-iz/1569280525"
+        }
+      ],
+      "videos": [
+        {
+          "title": "La Vie en Rose",
+          "url": "https://www.youtube.com/watch?v=WZwr2a_lFWY",
+          "publisher": "STONE MUSIC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/color-iz/1569280525"
+        }
+      ]
+    },
+    {
+      "id": "suki-to-iwasetai",
+      "title": "Suki to Iwasetai",
+      "date": "2019-02-06",
+      "digitalDate": "2019-02-05",
+      "era": "izone",
+      "market": "jp",
+      "type": "single",
+      "summary": "第一次日语发行，从一段轻快又带着期待的旋律听起。",
+      "aliases": [
+        "Suki to Iwasetai",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "Sukito Iwasetai (Type A) - Single",
+      "note": "发行日为日本实体发售日；Apple Music 标注的数字发行日为 2019.02.05。默认展示 Type A 数字版 3 首，Type B 与 WIZ*ONE 版另列；实体版还收录对应伴奏。",
+      "cover": {
+        "asset": "suki-to-iwasetai.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7c/99/c2/7c99c265-fc34-82fe-7ca2-76c1afdb1ecb/00602577441394.rgb.jpg/600x600bb.jpg",
+        "credit": "An EMI Records release; ℗ 2019 UNIVERSAL MUSIC LLC"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "好きと言わせたい",
+          "duration": 239,
+          "url": "https://music.apple.com/jp/album/%E5%A5%BD%E3%81%8D%E3%81%A8%E8%A8%80%E3%82%8F%E3%81%9B%E3%81%9F%E3%81%84/1450365850?i=1450365851"
+        },
+        {
+          "number": 2,
+          "title": "ケンチャナヨ",
+          "duration": 257,
+          "url": "https://music.apple.com/jp/album/%E3%82%B1%E3%83%B3%E3%83%81%E3%83%A3%E3%83%8A%E3%83%A8/1450365850?i=1450365852"
+        },
+        {
+          "number": 3,
+          "title": "ご機嫌サヨナラ",
+          "duration": 264,
+          "url": "https://music.apple.com/jp/album/%E3%81%94%E6%A9%9F%E5%AB%8C%E3%82%B5%E3%83%A8%E3%83%8A%E3%83%A9/1450365850?i=1450365855"
+        }
+      ],
+      "alternateEditions": [
+        {
+          "label": "Type B 数字版",
+          "url": "https://music.apple.com/jp/album/sukito-iwasetai-type-b-single/1450362465",
+          "tracks": [
+            {
+              "number": 1,
+              "title": "好きと言わせたい",
+              "duration": 239,
+              "url": "https://music.apple.com/jp/album/%E5%A5%BD%E3%81%8D%E3%81%A8%E8%A8%80%E3%82%8F%E3%81%9B%E3%81%9F%E3%81%84/1450362465?i=1450362471"
+            },
+            {
+              "number": 2,
+              "title": "ケンチャナヨ",
+              "duration": 257,
+              "url": "https://music.apple.com/jp/album/%E3%82%B1%E3%83%B3%E3%83%81%E3%83%A3%E3%83%8A%E3%83%A8/1450362465?i=1450362763"
+            },
+            {
+              "number": 3,
+              "title": "猫になりたい",
+              "duration": 258,
+              "url": "https://music.apple.com/jp/album/%E7%8C%AB%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%84/1450362465?i=1450362764"
+            }
+          ]
+        },
+        {
+          "label": "WIZ*ONE 数字版",
+          "url": "https://music.apple.com/jp/album/sukito-iwasetai-wiz-one-edition-single/1450366348",
+          "tracks": [
+            {
+              "number": 1,
+              "title": "好きと言わせたい",
+              "duration": 239,
+              "url": "https://music.apple.com/jp/album/%E5%A5%BD%E3%81%8D%E3%81%A8%E8%A8%80%E3%82%8F%E3%81%9B%E3%81%9F%E3%81%84/1450366348?i=1450366349"
+            },
+            {
+              "number": 2,
+              "title": "ケンチャナヨ",
+              "duration": 257,
+              "url": "https://music.apple.com/jp/album/%E3%82%B1%E3%83%B3%E3%83%81%E3%83%A3%E3%83%8A%E3%83%A8/1450366348?i=1450366351"
+            },
+            {
+              "number": 3,
+              "title": "ダンスを思い出すまで",
+              "duration": 274,
+              "url": "https://music.apple.com/jp/album/%E3%83%80%E3%83%B3%E3%82%B9%E3%82%92%E6%80%9D%E3%81%84%E5%87%BA%E3%81%99%E3%81%BE%E3%81%A7/1450366348?i=1450366353"
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        "好きと言わせたい"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/jp/album/sukito-iwasetai-type-a-single/1450365850"
+        }
+      ],
+      "videos": [
+        {
+          "title": "好きと言わせたい",
+          "url": "https://www.youtube.com/watch?v=dLymsYC7Kmo",
+          "publisher": "official IZ*ONE"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/jp/album/sukito-iwasetai-type-a-single/1450365850"
+        },
+        {
+          "label": "Universal Music · 实体发行日与各版配置",
+          "url": "https://sp.universal-music.co.jp/izone/190206/"
+        }
+      ]
+    },
+    {
+      "id": "heart-iz",
+      "title": "HEART*IZ",
+      "date": "2019-04-01",
+      "digitalDate": "2019-04-01",
+      "era": "izone",
+      "market": "kr",
+      "type": "ep",
+      "summary": "紫罗兰与明亮的天空之间，听见一段渐渐盛开的青春。",
+      "aliases": [
+        "HEART*IZ",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "HEART*IZ",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "heart-iz.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bc/f1/6e/bcf16eb1-7fd3-58b6-7f31-4c464efc3c04/8809658311085_Cover.jpg/600x600bb.jpg",
+        "credit": "℗ 2019 STONE MUSIC, OFF THE RECORD Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Hey. Bae. Like it.",
+          "duration": 213,
+          "url": "https://music.apple.com/us/album/hey-bae-like-it/1569293222?i=1569293223"
+        },
+        {
+          "number": 2,
+          "title": "Violeta",
+          "duration": 201,
+          "url": "https://music.apple.com/us/album/violeta/1569293222?i=1569293224"
+        },
+        {
+          "number": 3,
+          "title": "Highlight",
+          "duration": 209,
+          "url": "https://music.apple.com/us/album/highlight/1569293222?i=1569293225"
+        },
+        {
+          "number": 4,
+          "title": "Really Like You",
+          "duration": 191,
+          "url": "https://music.apple.com/us/album/really-like-you/1569293222?i=1569293558"
+        },
+        {
+          "number": 5,
+          "title": "Airplane",
+          "duration": 184,
+          "url": "https://music.apple.com/us/album/airplane/1569293222?i=1569293559"
+        },
+        {
+          "number": 6,
+          "title": "Up",
+          "duration": 193,
+          "url": "https://music.apple.com/us/album/up/1569293222?i=1569293560"
+        },
+        {
+          "number": 7,
+          "title": "NEKONI NARITAI (Korean Version)",
+          "duration": 257,
+          "url": "https://music.apple.com/us/album/nekoni-naritai-korean-version/1569293222?i=1569293567"
+        },
+        {
+          "number": 8,
+          "title": "GOKIGEN SAYONARA (Korean Version)",
+          "duration": 261,
+          "url": "https://music.apple.com/us/album/gokigen-sayonara-korean-version/1569293222?i=1569293568"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "Violeta"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/heart-iz/1569293222"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Violeta",
+          "url": "https://www.youtube.com/watch?v=6eEZ7DJMzuk",
+          "publisher": "STONE MUSIC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/heart-iz/1569293222"
+        }
+      ]
+    },
+    {
+      "id": "buenos-aires",
+      "title": "Buenos Aires",
+      "date": "2019-06-26",
+      "digitalDate": "2019-06-21",
+      "era": "izone",
+      "market": "jp",
+      "type": "single",
+      "summary": "换一个城市的想象，听见日语作品里更鲜明的节奏。",
+      "aliases": [
+        "Buenos Aires",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "Buenos Aires (Special Edition) - EP",
+      "note": "发行日为日本实体发售日。所列曲目为 Special Edition 数字版，集合不同实体版本歌曲，不代表任一张实体 CD 的曲序；不同地区数字上架日可能不同。",
+      "cover": {
+        "asset": "buenos-aires.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/41/d0/c8/41d0c837-e3eb-3616-3e71-9fe346e675eb/19UMGIM45068.rgb.jpg/600x600bb.jpg",
+        "credit": "An EMI Records release; ℗ 2019 UNIVERSAL MUSIC LLC"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Buenos Aires",
+          "duration": 261,
+          "url": "https://music.apple.com/jp/album/buenos-aires/1466727926?i=1466727934"
+        },
+        {
+          "number": 2,
+          "title": "Tomorrow",
+          "duration": 185,
+          "url": "https://music.apple.com/jp/album/tomorrow/1466727926?i=1466727940"
+        },
+        {
+          "number": 3,
+          "title": "Target",
+          "duration": 221,
+          "url": "https://music.apple.com/jp/album/target/1466727926?i=1466727944"
+        },
+        {
+          "number": 4,
+          "title": "年下Boyfriend",
+          "duration": 233,
+          "url": "https://music.apple.com/jp/album/%E5%B9%B4%E4%B8%8Bboyfriend/1466727926?i=1466727948"
+        },
+        {
+          "number": 5,
+          "title": "Human Love",
+          "duration": 237,
+          "url": "https://music.apple.com/jp/album/human-love/1466727926?i=1466727949"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "Buenos Aires"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/jp/album/buenos-aires-special-edition-ep/1466727926"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Buenos Aires",
+          "url": "https://www.youtube.com/watch?v=M46FRJsB0Qw",
+          "publisher": "official IZ*ONE"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/jp/album/buenos-aires-special-edition-ep/1466727926"
+        },
+        {
+          "label": "官方 MV 简介 · 实体发行日",
+          "url": "https://www.youtube.com/watch?v=M46FRJsB0Qw"
+        }
+      ]
+    },
+    {
+      "id": "vampire",
+      "title": "Vampire",
+      "date": "2019-09-25",
+      "digitalDate": "2019-09-25",
+      "era": "izone",
+      "market": "jp",
+      "type": "single",
+      "summary": "把灯光调暗一点，走进这一页略带神秘的故事。",
+      "aliases": [
+        "Vampire",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "Vampire (Special Edition) - EP",
+      "note": "曲目为 Special Edition 数字版，集合不同实体版本歌曲，不代表任一张实体 CD 的曲序。",
+      "cover": {
+        "asset": "vampire.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/52/51/9a/52519a50-431f-956b-527f-5ede56214580/19UMGIM77944.rgb.jpg/600x600bb.jpg",
+        "credit": "An EMI Records release; ℗ 2019 UNIVERSAL MUSIC LLC"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Vampire",
+          "duration": 228,
+          "url": "https://music.apple.com/jp/album/vampire/1478594946?i=1478594949"
+        },
+        {
+          "number": 2,
+          "title": "君以外",
+          "duration": 213,
+          "url": "https://music.apple.com/jp/album/%E5%90%9B%E4%BB%A5%E5%A4%96/1478594946?i=1478594954"
+        },
+        {
+          "number": 3,
+          "title": "Love Bubble",
+          "duration": 198,
+          "url": "https://music.apple.com/jp/album/love-bubble/1478594946?i=1478594955"
+        },
+        {
+          "number": 4,
+          "title": "紫外線なんかぶっとばせ",
+          "duration": 254,
+          "url": "https://music.apple.com/jp/album/%E7%B4%AB%E5%A4%96%E7%B7%9A%E3%81%AA%E3%82%93%E3%81%8B%E3%81%B6%E3%81%A3%E3%81%A8%E3%81%B0%E3%81%9B/1478594946?i=1478594963"
+        },
+        {
+          "number": 5,
+          "title": "不機嫌Lucy",
+          "duration": 214,
+          "url": "https://music.apple.com/jp/album/%E4%B8%8D%E6%A9%9F%E5%AB%8Clucy/1478594946?i=1478594965"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "Vampire"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/jp/album/vampire-special-edition-ep/1478594946"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Vampire",
+          "url": "https://www.youtube.com/watch?v=nRYCLOTRAK4",
+          "publisher": "official IZ*ONE"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/jp/album/vampire-special-edition-ep/1478594946"
+        }
+      ]
+    },
+    {
+      "id": "bloom-iz",
+      "title": "BLOOM*IZ",
+      "date": "2020-02-17",
+      "digitalDate": "2020-02-17",
+      "era": "izone",
+      "market": "kr",
+      "type": "album",
+      "summary": "把花开的热闹留在耳边，也别错过专辑里轻柔的另一面。",
+      "aliases": [
+        "BLOOM*IZ",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "BLOOM*IZ",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "bloom-iz.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/18/cd/3c18cd7d-e4f7-bfd8-9e4a-b7c1bd48bb33/8809658318862_Cover.jpg/600x600bb.jpg",
+        "credit": "℗ 2020 STONE MUSIC, OFF THE RECORD Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "EYES",
+          "duration": 218,
+          "url": "https://music.apple.com/us/album/eyes/1569281731?i=1569281733"
+        },
+        {
+          "number": 2,
+          "title": "FIESTA",
+          "duration": 218,
+          "url": "https://music.apple.com/us/album/fiesta/1569281731?i=1569281734"
+        },
+        {
+          "number": 3,
+          "title": "DREAMLIKE",
+          "duration": 227,
+          "url": "https://music.apple.com/us/album/dreamlike/1569281731?i=1569281889"
+        },
+        {
+          "number": 4,
+          "title": "AYAYAYA",
+          "duration": 202,
+          "url": "https://music.apple.com/us/album/ayayaya/1569281731?i=1569281904"
+        },
+        {
+          "number": 5,
+          "title": "SO CURIOUS",
+          "duration": 203,
+          "url": "https://music.apple.com/us/album/so-curious/1569281731?i=1569281976"
+        },
+        {
+          "number": 6,
+          "title": "SPACESHIP",
+          "duration": 171,
+          "url": "https://music.apple.com/us/album/spaceship/1569281731?i=1569282002"
+        },
+        {
+          "number": 7,
+          "title": "DESTINY",
+          "duration": 202,
+          "url": "https://music.apple.com/us/album/destiny/1569281731?i=1569282066"
+        },
+        {
+          "number": 8,
+          "title": "YOU & I",
+          "duration": 205,
+          "url": "https://music.apple.com/us/album/you-i/1569281731?i=1569282070"
+        },
+        {
+          "number": 9,
+          "title": "DAYDREAM",
+          "duration": 204,
+          "url": "https://music.apple.com/us/album/daydream/1569281731?i=1569282073"
+        },
+        {
+          "number": 10,
+          "title": "PINK BLUSHER",
+          "duration": 194,
+          "url": "https://music.apple.com/us/album/pink-blusher/1569281731?i=1569282076"
+        },
+        {
+          "number": 11,
+          "title": "SOMEDAY",
+          "duration": 197,
+          "url": "https://music.apple.com/us/album/someday/1569281731?i=1569282077"
+        },
+        {
+          "number": 12,
+          "title": "OPEN YOUR EYES",
+          "duration": 198,
+          "url": "https://music.apple.com/us/album/open-your-eyes/1569281731?i=1569282078"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "FIESTA"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/bloom-iz/1569281731"
+        }
+      ],
+      "videos": [
+        {
+          "title": "FIESTA",
+          "url": "https://www.youtube.com/watch?v=eDEFolvLn0A",
+          "publisher": "STONE MUSIC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/bloom-iz/1569281731"
+        }
+      ]
+    },
+    {
+      "id": "oneiric-diary",
+      "title": "Oneiric Diary",
+      "date": "2020-06-15",
+      "digitalDate": "2020-06-15",
+      "era": "izone",
+      "market": "kr",
+      "type": "ep",
+      "summary": "像翻开一本梦境日记，让旋律带你进入她们的童话。",
+      "aliases": [
+        "Oneiric Diary",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "Oneiric Diary",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "oneiric-diary.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2c/78/6d/2c786d9c-1ad9-8016-67b9-74a3e077addf/8809704415637_Cover.jpg/600x600bb.jpg",
+        "credit": "℗ 2020 OFF THE RECORD Entertainment, Swing Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Welcome",
+          "duration": 85,
+          "url": "https://music.apple.com/us/album/welcome/1569282878?i=1569282882"
+        },
+        {
+          "number": 2,
+          "title": "Secret Story of the Swan",
+          "duration": 192,
+          "url": "https://music.apple.com/us/album/secret-story-of-the-swan/1569282878?i=1569282884"
+        },
+        {
+          "number": 3,
+          "title": "Pretty",
+          "duration": 200,
+          "url": "https://music.apple.com/us/album/pretty/1569282878?i=1569282885"
+        },
+        {
+          "number": 4,
+          "title": "Merry-Go-Round",
+          "duration": 181,
+          "url": "https://music.apple.com/us/album/merry-go-round/1569282878?i=1569282889"
+        },
+        {
+          "number": 5,
+          "title": "Rococo",
+          "duration": 193,
+          "url": "https://music.apple.com/us/album/rococo/1569282878?i=1569282891"
+        },
+        {
+          "number": 6,
+          "title": "With*One",
+          "duration": 219,
+          "url": "https://music.apple.com/us/album/with-one/1569282878?i=1569282896"
+        },
+        {
+          "number": 7,
+          "title": "Secret Story of the Swan (Japanese Version)",
+          "duration": 192,
+          "url": "https://music.apple.com/us/album/secret-story-of-the-swan-japanese-version/1569282878?i=1569282900"
+        },
+        {
+          "number": 8,
+          "title": "Merry-Go-Round (Japanese Version)",
+          "duration": 181,
+          "url": "https://music.apple.com/us/album/merry-go-round-japanese-version/1569282878?i=1569283091"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "Secret Story of the Swan"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/oneiric-diary/1569282878"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Secret Story of the Swan",
+          "url": "https://www.youtube.com/watch?v=nnVjsos40qk",
+          "publisher": "STONE MUSIC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/oneiric-diary/1569282878"
+        }
+      ]
+    },
+    {
+      "id": "twelve",
+      "title": "Twelve",
+      "date": "2020-10-21",
+      "digitalDate": "2020-10-21",
+      "era": "izone",
+      "market": "jp",
+      "type": "album",
+      "summary": "新的旋律与熟悉歌曲的日语版本，一起收进十二个人的音乐相簿。",
+      "aliases": [
+        "Twelve",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "Twelve (Special Edition)",
+      "note": "曲目为 Special Edition 数字版；实体版本的附加曲存在差异，请以所购版本配置为准。",
+      "cover": {
+        "asset": "twelve.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/600x600bb.jpg",
+        "credit": "An EMI Records release; ℗ 2020 UNIVERSAL MUSIC LLC"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Beware",
+          "duration": 251,
+          "url": "https://music.apple.com/jp/album/beware/1533391521?i=1533391523"
+        },
+        {
+          "number": 2,
+          "title": "Vampire",
+          "duration": 229,
+          "url": "https://music.apple.com/jp/album/vampire/1533391521?i=1533391524"
+        },
+        {
+          "number": 3,
+          "title": "好きと言わせたい",
+          "duration": 241,
+          "url": "https://music.apple.com/jp/album/%E5%A5%BD%E3%81%8D%E3%81%A8%E8%A8%80%E3%82%8F%E3%81%9B%E3%81%9F%E3%81%84/1533391521?i=1533391525"
+        },
+        {
+          "number": 4,
+          "title": "Waiting",
+          "duration": 252,
+          "url": "https://music.apple.com/jp/album/waiting/1533391521?i=1533391526"
+        },
+        {
+          "number": 5,
+          "title": "Buenos Aires",
+          "duration": 263,
+          "url": "https://music.apple.com/jp/album/buenos-aires/1533391521?i=1533391527"
+        },
+        {
+          "number": 6,
+          "title": "好きになっちゃうだろう? (IZ*ONE Ver.)",
+          "duration": 251,
+          "url": "https://music.apple.com/jp/album/%E5%A5%BD%E3%81%8D%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A1%E3%82%83%E3%81%86%E3%81%A0%E3%82%8D%E3%81%86-iz-one-ver/1533391521?i=1533391528"
+        },
+        {
+          "number": 7,
+          "title": "Yummy Summer",
+          "duration": 206,
+          "url": "https://music.apple.com/jp/album/yummy-summer/1533391521?i=1533391529"
+        },
+        {
+          "number": 8,
+          "title": "La Vie en Rose (Japanese Ver.)",
+          "duration": 222,
+          "url": "https://music.apple.com/jp/album/la-vie-en-rose-japanese-ver/1533391521?i=1533391532"
+        },
+        {
+          "number": 9,
+          "title": "Violeta (Japanese Ver.)",
+          "duration": 203,
+          "url": "https://music.apple.com/jp/album/violeta-japanese-ver/1533391521?i=1533391533"
+        },
+        {
+          "number": 10,
+          "title": "FIESTA (Japanese Ver.)",
+          "duration": 221,
+          "url": "https://music.apple.com/jp/album/fiesta-japanese-ver/1533391521?i=1533391534"
+        },
+        {
+          "number": 11,
+          "title": "夢を見ている間 (Japanese Ver. / IZ*ONE Ver.)",
+          "duration": 211,
+          "url": "https://music.apple.com/jp/album/%E5%A4%A2%E3%82%92%E8%A6%8B%E3%81%A6%E3%81%84%E3%82%8B%E9%96%93-japanese-ver-iz-one-ver/1533391521?i=1533391535"
+        },
+        {
+          "number": 12,
+          "title": "どうすればいい?",
+          "duration": 174,
+          "url": "https://music.apple.com/jp/album/%E3%81%A9%E3%81%86%E3%81%99%E3%82%8C%E3%81%B0%E3%81%84%E3%81%84/1533391521?i=1533391746"
+        },
+        {
+          "number": 13,
+          "title": "Shy boy",
+          "duration": 263,
+          "url": "https://music.apple.com/jp/album/shy-boy/1533391521?i=1533391747"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "Beware"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/jp/album/twelve-special-edition/1533391521"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Beware",
+          "url": "https://www.youtube.com/watch?v=QqsvrV1_XEA",
+          "publisher": "official IZ*ONE"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/jp/album/twelve-special-edition/1533391521"
+        }
+      ]
+    },
+    {
+      "id": "one-reeler",
+      "title": "One-reeler / Act IV",
+      "date": "2020-12-07",
+      "digitalDate": "2020-12-07",
+      "era": "izone",
+      "market": "kr",
+      "type": "ep",
+      "summary": "从一幕到另一幕，把属于十二个人的画面慢慢重看。",
+      "aliases": [
+        "One-reeler / Act IV",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "One-reeler / Act IV - EP",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "one-reeler.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e3/47/c2/e347c25d-0fee-35cb-1f5d-6bf651f977ae/888272071962_Cover.jpg/600x600bb.jpg",
+        "credit": "℗ 2020 OFF THE RECORD Entertainment, SWING Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Mise-en-Scène",
+          "duration": 200,
+          "url": "https://music.apple.com/us/album/mise-en-sc%C3%A8ne/1569286882?i=1569286885"
+        },
+        {
+          "number": 2,
+          "title": "Panorama",
+          "duration": 223,
+          "url": "https://music.apple.com/us/album/panorama/1569286882?i=1569286889"
+        },
+        {
+          "number": 3,
+          "title": "Island",
+          "duration": 194,
+          "url": "https://music.apple.com/us/album/island/1569286882?i=1569286895"
+        },
+        {
+          "number": 4,
+          "title": "Sequence",
+          "duration": 191,
+          "url": "https://music.apple.com/us/album/sequence/1569286882?i=1569287196"
+        },
+        {
+          "number": 5,
+          "title": "O Sole Mio",
+          "duration": 210,
+          "url": "https://music.apple.com/us/album/o-sole-mio/1569286882?i=1569287198"
+        },
+        {
+          "number": 6,
+          "title": "Slow Journey",
+          "duration": 199,
+          "url": "https://music.apple.com/us/album/slow-journey/1569286882?i=1569287224"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "Panorama"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/one-reeler-act-iv-ep/1569286882"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Panorama",
+          "url": "https://www.youtube.com/watch?v=G8GaQdW2wHc",
+          "publisher": "STONE MUSIC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/one-reeler-act-iv-ep/1569286882"
+        }
+      ]
+    },
+    {
+      "id": "eleven",
+      "title": "ELEVEN",
+      "date": "2021-12-01",
+      "digitalDate": "2021-12-01",
+      "era": "ive",
+      "market": "kr",
+      "type": "single",
+      "summary": "以 IVE 的名字再次出发，从这首歌感受她的目光与节奏。",
+      "aliases": [
+        "ELEVEN",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "ELEVEN - Single",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "eleven.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/63/4a/d3634a37-8dd2-8fc6-d138-895b3d237611/IVE_OnlineCover_fix.jpg/600x600bb.jpg",
+        "credit": "℗ 2021 스타쉽엔터테인먼트(STARSHIP Entertainment),under license to Kakao Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "ELEVEN",
+          "duration": 178,
+          "url": "https://music.apple.com/us/album/eleven/1597404250?i=1597404252"
+        },
+        {
+          "number": 2,
+          "title": "Take It",
+          "duration": 205,
+          "url": "https://music.apple.com/us/album/take-it/1597404250?i=1597404253"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "ELEVEN"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/eleven-single/1597404250"
+        }
+      ],
+      "videos": [
+        {
+          "title": "ELEVEN",
+          "url": "https://www.youtube.com/watch?v=--FmExEAsM8",
+          "publisher": "STARSHIP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/eleven-single/1597404250"
+        },
+        {
+          "label": "IVE 日本官方 · MV 目录",
+          "url": "https://ive-official.jp/mob/news/diarKiji.php?cd=VIDEO&site=DIVE"
+        }
+      ]
+    },
+    {
+      "id": "love-dive",
+      "title": "LOVE DIVE",
+      "date": "2022-04-05",
+      "digitalDate": "2022-04-05",
+      "era": "ive",
+      "market": "kr",
+      "type": "single",
+      "summary": "从一个眼神开始，把这一次心动交给循环播放。",
+      "aliases": [
+        "LOVE DIVE",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "LOVE DIVE - Single",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "love-dive.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/67/f8/16/67f8164a-bfc2-f29b-e241-800426a968ef/cover_KM0015013_1.jpg/600x600bb.jpg",
+        "credit": "℗ 2022 STARSHIP Entertainment,under license to Kakao Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "LOVE DIVE",
+          "duration": 177,
+          "url": "https://music.apple.com/us/album/love-dive/1616804151?i=1616804152"
+        },
+        {
+          "number": 2,
+          "title": "ROYAL",
+          "duration": 206,
+          "url": "https://music.apple.com/us/album/royal/1616804151?i=1616804153"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "LOVE DIVE"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/love-dive-single/1616804151"
+        }
+      ],
+      "videos": [
+        {
+          "title": "LOVE DIVE",
+          "url": "https://www.youtube.com/watch?v=Y8JFxS1HlDo",
+          "publisher": "STARSHIP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/love-dive-single/1616804151"
+        },
+        {
+          "label": "IVE 日本官方 · MV 目录",
+          "url": "https://ive-official.jp/mob/news/diarKiji.php?cd=VIDEO&site=DIVE"
+        }
+      ]
+    },
+    {
+      "id": "after-like",
+      "title": "After LIKE",
+      "date": "2022-08-22",
+      "digitalDate": "2022-08-22",
+      "era": "ive",
+      "market": "kr",
+      "type": "single",
+      "summary": "给今天加一点亮色，和熟悉的旋律一起往前走。",
+      "aliases": [
+        "After LIKE",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "After LIKE - Single",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "after-like.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/01/f5/0a/01f50af1-89da-cb51-a809-c613600451e9/196925429900.jpg/600x600bb.jpg",
+        "credit": "℗ 2022 Starship Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "After LIKE",
+          "duration": 177,
+          "url": "https://music.apple.com/us/album/after-like/1639416895?i=1639416903"
+        },
+        {
+          "number": 2,
+          "title": "My Satisfaction",
+          "duration": 193,
+          "url": "https://music.apple.com/us/album/my-satisfaction/1639416895?i=1639416913"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "After LIKE"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/after-like-single/1639416895"
+        }
+      ],
+      "videos": [
+        {
+          "title": "After LIKE",
+          "url": "https://www.youtube.com/watch?v=F0B7HDiY-10",
+          "publisher": "STARSHIP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/after-like-single/1639416895"
+        },
+        {
+          "label": "IVE 日本官方 · MV 目录",
+          "url": "https://ive-official.jp/mob/news/diarKiji.php?cd=VIDEO&site=DIVE"
+        }
+      ]
+    },
+    {
+      "id": "eleven-jp",
+      "title": "ELEVEN — Japanese ver.",
+      "date": "2022-10-19",
+      "digitalDate": "2022-10-19",
+      "era": "ive",
+      "market": "jp",
+      "type": "single",
+      "summary": "熟悉的出发点，换一种语言再听一次；也听听《Queen of Hearts》。",
+      "aliases": [
+        "ELEVEN — Japanese ver.",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "ELEVEN -Japanese ver.- - Single",
+      "note": "发行日为日本实体单曲发售日；标题曲曾提前配信，此处按含《Queen of Hearts》的两曲发行整理。",
+      "cover": {
+        "asset": "eleven-jp.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b7/d7/18/b7d7185f-7b15-65db-9919-5282462f9863/4547366589269.jpg/600x600bb.jpg",
+        "credit": "℗ 2022 STARSHIP ENTERTAINMENT"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "ELEVEN -Japanese version-",
+          "duration": 180,
+          "url": "https://music.apple.com/us/album/eleven-japanese-version/1649467561?i=1649467571"
+        },
+        {
+          "number": 2,
+          "title": "Queen of Hearts",
+          "duration": 145,
+          "url": "https://music.apple.com/us/album/queen-of-hearts/1649467561?i=1649467575"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "ELEVEN -Japanese version-"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/eleven-japanese-ver-single/1649467561"
+        }
+      ],
+      "videos": [
+        {
+          "title": "ELEVEN -Japanese version-",
+          "url": "https://www.youtube.com/watch?v=XfEZzUtdINI",
+          "publisher": "Sony Music (Japan)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/eleven-japanese-ver-single/1649467561"
+        },
+        {
+          "label": "IVE 日本官方 · MV 目录",
+          "url": "https://ive-official.jp/mob/news/diarKiji.php?cd=VIDEO&site=DIVE"
+        }
+      ]
+    },
+    {
+      "id": "ive-ive",
+      "title": "I’VE IVE",
+      "date": "2023-04-10",
+      "digitalDate": "2023-04-10",
+      "era": "ive",
+      "market": "kr",
+      "type": "album",
+      "summary": "从《I AM》的开阔到专辑深处的小心情，一页一页认识 IVE。",
+      "aliases": [
+        "I’VE IVE",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "I've IVE",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "ive-ive.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3a/23/b7/3a23b7f4-0b43-df9d-b7e4-14f992443324/197188335663.jpg/600x600bb.jpg",
+        "credit": "℗ 2023 Starship Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Blue Blood",
+          "duration": 168,
+          "url": "https://music.apple.com/us/album/blue-blood/1680047093?i=1680047357"
+        },
+        {
+          "number": 2,
+          "title": "I AM",
+          "duration": 184,
+          "url": "https://music.apple.com/us/album/i-am/1680047093?i=1680047366"
+        },
+        {
+          "number": 3,
+          "title": "Kitsch",
+          "duration": 195,
+          "url": "https://music.apple.com/us/album/kitsch/1680047093?i=1680047537"
+        },
+        {
+          "number": 4,
+          "title": "Lips",
+          "duration": 181,
+          "url": "https://music.apple.com/us/album/lips/1680047093?i=1680047542"
+        },
+        {
+          "number": 5,
+          "title": "Heroine",
+          "duration": 171,
+          "url": "https://music.apple.com/us/album/heroine/1680047093?i=1680047554"
+        },
+        {
+          "number": 6,
+          "title": "Mine",
+          "duration": 190,
+          "url": "https://music.apple.com/us/album/mine/1680047093?i=1680047726"
+        },
+        {
+          "number": 7,
+          "title": "Hypnosis",
+          "duration": 147,
+          "url": "https://music.apple.com/us/album/hypnosis/1680047093?i=1680047738"
+        },
+        {
+          "number": 8,
+          "title": "NOT YOUR GIRL",
+          "duration": 202,
+          "url": "https://music.apple.com/us/album/not-your-girl/1680047093?i=1680048020"
+        },
+        {
+          "number": 9,
+          "title": "Next Page",
+          "duration": 199,
+          "url": "https://music.apple.com/us/album/next-page/1680047093?i=1680048030"
+        },
+        {
+          "number": 10,
+          "title": "Cherish",
+          "duration": 195,
+          "url": "https://music.apple.com/us/album/cherish/1680047093?i=1680048040"
+        },
+        {
+          "number": 11,
+          "title": "Shine With Me",
+          "duration": 225,
+          "url": "https://music.apple.com/us/album/shine-with-me/1680047093?i=1680048343"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "I AM",
+        "Kitsch"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/ive-ive/1680047093"
+        }
+      ],
+      "videos": [
+        {
+          "title": "I AM",
+          "url": "https://www.youtube.com/watch?v=6ZUIwj3FgUY",
+          "publisher": "STARSHIP"
+        },
+        {
+          "title": "Kitsch",
+          "url": "https://www.youtube.com/watch?v=pG6iaOMV46I",
+          "publisher": "STARSHIP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/ive-ive/1680047093"
+        },
+        {
+          "label": "IVE 日本官方 · MV 目录",
+          "url": "https://ive-official.jp/mob/news/diarKiji.php?cd=VIDEO&site=DIVE"
+        }
+      ]
+    },
+    {
+      "id": "wave",
+      "title": "WAVE",
+      "date": "2023-05-31",
+      "digitalDate": "2023-05-31",
+      "era": "ive",
+      "market": "jp",
+      "type": "ep",
+      "summary": "让海浪一样的节奏吹进耳机，给熟悉的歌换一阵新的风。",
+      "aliases": [
+        "WAVE",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "WAVE - EP",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "wave.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/49/4e/4c/494e4cc9-7a4b-e188-1f29-fcd4c0d1db29/4547366622553.jpg/600x600bb.jpg",
+        "credit": "℗ 2023 STARSHIP ENTERTAINMENT"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "WAVE",
+          "duration": 176,
+          "url": "https://music.apple.com/us/album/wave/1685789440?i=1685789441"
+        },
+        {
+          "number": 2,
+          "title": "Classic",
+          "duration": 212,
+          "url": "https://music.apple.com/us/album/classic/1685789440?i=1685789442"
+        },
+        {
+          "number": 3,
+          "title": "After LIKE (Japanese version)",
+          "duration": 178,
+          "url": "https://music.apple.com/us/album/after-like-japanese-version/1685789440?i=1685789443"
+        },
+        {
+          "number": 4,
+          "title": "LOVE DIVE (Japanese version)",
+          "duration": 178,
+          "url": "https://music.apple.com/us/album/love-dive-japanese-version/1685789440?i=1685789444"
+        },
+        {
+          "number": 5,
+          "title": "Take It (Japanese version)",
+          "duration": 205,
+          "url": "https://music.apple.com/us/album/take-it-japanese-version/1685789440?i=1685789445"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "WAVE"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/wave-ep/1685789440"
+        }
+      ],
+      "videos": [
+        {
+          "title": "WAVE",
+          "url": "https://www.youtube.com/watch?v=qD1kP_nJU3o",
+          "publisher": "Sony Music (Japan)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/wave-ep/1685789440"
+        },
+        {
+          "label": "IVE 日本官方 · MV 目录",
+          "url": "https://ive-official.jp/mob/news/diarKiji.php?cd=VIDEO&site=DIVE"
+        }
+      ]
+    },
+    {
+      "id": "ive-mine",
+      "title": "I’VE MINE",
+      "date": "2023-10-13",
+      "digitalDate": "2023-10-13",
+      "era": "ive",
+      "market": "kr",
+      "type": "ep",
+      "summary": "三首主打，三种表情。挑一个最像今天心情的入口。",
+      "aliases": [
+        "I’VE MINE",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "I'VE MINE - EP",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "ive-mine.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2e/a2/87/2ea2870f-9700-bb4e-df68-abd2acfb5fb9/197189809583.jpg/600x600bb.jpg",
+        "credit": "℗ 2023 Starship Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Off The Record",
+          "duration": 189,
+          "url": "https://music.apple.com/us/album/off-the-record/1709569466?i=1709569468"
+        },
+        {
+          "number": 2,
+          "title": "Baddie",
+          "duration": 154,
+          "url": "https://music.apple.com/us/album/baddie/1709569466?i=1709569470"
+        },
+        {
+          "number": 3,
+          "title": "Either Way",
+          "duration": 167,
+          "url": "https://music.apple.com/us/album/either-way/1709569466?i=1709569472"
+        },
+        {
+          "number": 4,
+          "title": "Holy Moly",
+          "duration": 177,
+          "url": "https://music.apple.com/us/album/holy-moly/1709569466?i=1709569476"
+        },
+        {
+          "number": 5,
+          "title": "OTT",
+          "duration": 157,
+          "url": "https://music.apple.com/us/album/ott/1709569466?i=1709569480"
+        },
+        {
+          "number": 6,
+          "title": "Payback",
+          "duration": 188,
+          "url": "https://music.apple.com/us/album/payback/1709569466?i=1709569706"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "Baddie",
+        "Off The Record",
+        "Either Way"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/ive-mine-ep/1709569466"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Baddie",
+          "url": "https://www.youtube.com/watch?v=Da4P2uT4mVc",
+          "publisher": "STARSHIP"
+        },
+        {
+          "title": "Off The Record",
+          "url": "https://www.youtube.com/watch?v=_ApV7Lm87cg",
+          "publisher": "STARSHIP"
+        },
+        {
+          "title": "Either Way",
+          "url": "https://www.youtube.com/watch?v=_Hu4GYtye5U",
+          "publisher": "STARSHIP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/ive-mine-ep/1709569466"
+        },
+        {
+          "label": "IVE 日本官方 · MV 目录",
+          "url": "https://ive-official.jp/mob/news/diarKiji.php?cd=VIDEO&site=DIVE"
+        }
+      ]
+    },
+    {
+      "id": "ive-switch",
+      "title": "IVE SWITCH",
+      "date": "2024-04-29",
+      "digitalDate": "2024-04-29",
+      "era": "ive",
+      "market": "kr",
+      "type": "ep",
+      "summary": "明亮的色彩与神秘的魔法之间，看看她的另一种舞台表情。",
+      "aliases": [
+        "IVE SWITCH",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "IVE SWITCH - EP",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "ive-switch.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/6d/b4/336db418-00ea-9570-1aa5-2541c07e582e/198391557965.jpg/600x600bb.jpg",
+        "credit": "℗ 2024 Starship Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "HEYA",
+          "duration": 190,
+          "url": "https://music.apple.com/us/album/heya/1741070979?i=1741071167"
+        },
+        {
+          "number": 2,
+          "title": "Accendio",
+          "duration": 192,
+          "url": "https://music.apple.com/us/album/accendio/1741070979?i=1741071186"
+        },
+        {
+          "number": 3,
+          "title": "Blue Heart",
+          "duration": 188,
+          "url": "https://music.apple.com/us/album/blue-heart/1741070979?i=1741071387"
+        },
+        {
+          "number": 4,
+          "title": "Ice Queen",
+          "duration": 183,
+          "url": "https://music.apple.com/us/album/ice-queen/1741070979?i=1741071500"
+        },
+        {
+          "number": 5,
+          "title": "WOW",
+          "duration": 179,
+          "url": "https://music.apple.com/us/album/wow/1741070979?i=1741071502"
+        },
+        {
+          "number": 6,
+          "title": "RESET",
+          "duration": 161,
+          "url": "https://music.apple.com/us/album/reset/1741070979?i=1741071523"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "HEYA",
+        "Accendio"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/ive-switch-ep/1741070979"
+        }
+      ],
+      "videos": [
+        {
+          "title": "HEYA",
+          "url": "https://www.youtube.com/watch?v=07EzMbVH3QE",
+          "publisher": "STARSHIP"
+        },
+        {
+          "title": "Accendio",
+          "url": "https://www.youtube.com/watch?v=PGLx4V680J8",
+          "publisher": "STARSHIP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/ive-switch-ep/1741070979"
+        },
+        {
+          "label": "IVE 日本官方 · MV 目录",
+          "url": "https://ive-official.jp/mob/news/diarKiji.php?cd=VIDEO&site=DIVE"
+        }
+      ]
+    },
+    {
+      "id": "alive",
+      "title": "ALIVE",
+      "date": "2024-08-28",
+      "digitalDate": "2024-08-28",
+      "era": "ive",
+      "market": "jp",
+      "type": "ep",
+      "summary": "从《CRUSH》听起，把明亮的心情和日语旋律一起收藏。",
+      "aliases": [
+        "ALIVE",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "ALIVE - EP",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "alive.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/9d/31/7b9d31da-dc48-5a97-f9a5-42445ee035b6/4547366700602.jpg/600x600bb.jpg",
+        "credit": "℗ 2024 STARSHIP ENTERTAINMENT"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "CRUSH",
+          "duration": 209,
+          "url": "https://music.apple.com/us/album/crush/1763022300?i=1763022301"
+        },
+        {
+          "number": 2,
+          "title": "Will",
+          "duration": 191,
+          "url": "https://music.apple.com/us/album/will/1763022300?i=1763022304"
+        },
+        {
+          "number": 3,
+          "title": "I AM -Japanese version-",
+          "duration": 184,
+          "url": "https://music.apple.com/us/album/i-am-japanese-version/1763022300?i=1763022305"
+        },
+        {
+          "number": 4,
+          "title": "Off The Record -Japanese version-",
+          "duration": 189,
+          "url": "https://music.apple.com/us/album/off-the-record-japanese-version/1763022300?i=1763022309"
+        },
+        {
+          "number": 5,
+          "title": "Baddie -Japanese version-",
+          "duration": 154,
+          "url": "https://music.apple.com/us/album/baddie-japanese-version/1763022300?i=1763022315"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "CRUSH"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/alive-ep/1763022300"
+        }
+      ],
+      "videos": [
+        {
+          "title": "CRUSH",
+          "url": "https://www.youtube.com/watch?v=D-geLVTaBAo",
+          "publisher": "Sony Music (Japan)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/alive-ep/1763022300"
+        },
+        {
+          "label": "IVE 日本官方 · MV 目录",
+          "url": "https://ive-official.jp/mob/news/diarKiji.php?cd=VIDEO&site=DIVE"
+        }
+      ]
+    },
+    {
+      "id": "ive-empathy",
+      "title": "IVE EMPATHY",
+      "date": "2025-02-03",
+      "digitalDate": "2025-02-03",
+      "era": "ive",
+      "market": "kr",
+      "type": "ep",
+      "summary": "温柔与坚定都可以被听见，留一点时间给专辑里的每一首歌。",
+      "aliases": [
+        "IVE EMPATHY",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "IVE EMPATHY - EP",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "ive-empathy.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/b1/ca/b5b1cab8-4a78-cd58-eb6d-87945e20d84c/199066115046.jpg/600x600bb.jpg",
+        "credit": "℗ 2025 Starship Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "REBEL HEART",
+          "duration": 188,
+          "url": "https://music.apple.com/us/album/rebel-heart/1789740675?i=1789740677"
+        },
+        {
+          "number": 2,
+          "title": "FLU",
+          "duration": 189,
+          "url": "https://music.apple.com/us/album/flu/1789740675?i=1789740678"
+        },
+        {
+          "number": 3,
+          "title": "You Wanna Cry",
+          "duration": 175,
+          "url": "https://music.apple.com/us/album/you-wanna-cry/1789740675?i=1789741043"
+        },
+        {
+          "number": 4,
+          "title": "Thank U",
+          "duration": 191,
+          "url": "https://music.apple.com/us/album/thank-u/1789740675?i=1789741046"
+        },
+        {
+          "number": 5,
+          "title": "ATTITUDE",
+          "duration": 195,
+          "url": "https://music.apple.com/us/album/attitude/1789740675?i=1789741053"
+        },
+        {
+          "number": 6,
+          "title": "TKO",
+          "duration": 186,
+          "url": "https://music.apple.com/us/album/tko/1789740675?i=1789741059"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "ATTITUDE",
+        "REBEL HEART"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/ive-empathy-ep/1789740675"
+        }
+      ],
+      "videos": [
+        {
+          "title": "ATTITUDE",
+          "url": "https://www.youtube.com/watch?v=38xYeot-ciM",
+          "publisher": "STARSHIP"
+        },
+        {
+          "title": "REBEL HEART",
+          "url": "https://www.youtube.com/watch?v=g36q0ZLvygQ",
+          "publisher": "STARSHIP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/ive-empathy-ep/1789740675"
+        },
+        {
+          "label": "IVE 日本官方 · MV 目录",
+          "url": "https://ive-official.jp/mob/news/diarKiji.php?cd=VIDEO&site=DIVE"
+        }
+      ]
+    },
+    {
+      "id": "be-alright",
+      "title": "Be Alright",
+      "date": "2025-07-30",
+      "digitalDate": "2025-07-30",
+      "era": "ive",
+      "market": "jp",
+      "type": "ep",
+      "summary": "适合在想给自己一点鼓励的时候，轻轻按下播放。",
+      "aliases": [
+        "Be Alright",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "Be Alright - EP",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "be-alright.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/c6/2f/65c62ff7-e413-ca25-bce4-fb7931bfbf77/4547366760170.jpg/600x600bb.jpg",
+        "credit": "℗ 2025 Starship Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Be Alright",
+          "duration": 171,
+          "url": "https://music.apple.com/us/album/be-alright/1824398909?i=1824398910"
+        },
+        {
+          "number": 2,
+          "title": "DARE ME",
+          "duration": 163,
+          "url": "https://music.apple.com/us/album/dare-me/1824398909?i=1824398911"
+        },
+        {
+          "number": 3,
+          "title": "Accendio -Japanese version-",
+          "duration": 192,
+          "url": "https://music.apple.com/us/album/accendio-japanese-version/1824398909?i=1824398915"
+        },
+        {
+          "number": 4,
+          "title": "Blue Heart -Japanese version-",
+          "duration": 188,
+          "url": "https://music.apple.com/us/album/blue-heart-japanese-version/1824398909?i=1824398919"
+        },
+        {
+          "number": 5,
+          "title": "WOW -Japanese version-",
+          "duration": 179,
+          "url": "https://music.apple.com/us/album/wow-japanese-version/1824398909?i=1824398923"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "Be Alright"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/be-alright-ep/1824398909"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Be Alright",
+          "url": "https://www.youtube.com/watch?v=gC7cURZsiH8",
+          "publisher": "Sony Music (Japan)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/be-alright-ep/1824398909"
+        },
+        {
+          "label": "IVE 日本官方 · MV 目录",
+          "url": "https://ive-official.jp/mob/news/diarKiji.php?cd=VIDEO&site=DIVE"
+        }
+      ]
+    },
+    {
+      "id": "ive-secret",
+      "title": "IVE SECRET",
+      "date": "2025-08-25",
+      "digitalDate": "2025-08-25",
+      "era": "ive",
+      "market": "kr",
+      "type": "ep",
+      "summary": "翻开这一封小小的秘密，把不同情绪留在同一张歌单。",
+      "aliases": [
+        "IVE SECRET",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "IVE SECRET - EP",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "ive-secret.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/12/6f/67126f11-d708-33be-7052-d54b2bff3168/199538397024.jpg/600x600bb.jpg",
+        "credit": "℗ 2025 Starship Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "XOXZ",
+          "duration": 154,
+          "url": "https://music.apple.com/us/album/xoxz/1831903462?i=1831903464"
+        },
+        {
+          "number": 2,
+          "title": "Wild Bird",
+          "duration": 163,
+          "url": "https://music.apple.com/us/album/wild-bird/1831903462?i=1831903467"
+        },
+        {
+          "number": 3,
+          "title": "Dear, My Feelings",
+          "duration": 193,
+          "url": "https://music.apple.com/us/album/dear-my-feelings/1831903462?i=1831903473"
+        },
+        {
+          "number": 4,
+          "title": "GOTCHA (Baddest Eros)",
+          "duration": 151,
+          "url": "https://music.apple.com/us/album/gotcha-baddest-eros/1831903462?i=1831903596"
+        },
+        {
+          "number": 5,
+          "title": "♥beats",
+          "duration": 151,
+          "url": "https://music.apple.com/us/album/beats/1831903462?i=1831903598"
+        },
+        {
+          "number": 6,
+          "title": "Midnight Kiss",
+          "duration": 224,
+          "url": "https://music.apple.com/us/album/midnight-kiss/1831903462?i=1831903601"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "XOXZ"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/ive-secret-ep/1831903462"
+        }
+      ],
+      "videos": [
+        {
+          "title": "XOXZ",
+          "url": "https://www.youtube.com/watch?v=B1ShLiq3EVc",
+          "publisher": "STARSHIP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/ive-secret-ep/1831903462"
+        },
+        {
+          "label": "IVE 日本官方 · MV 目录",
+          "url": "https://ive-official.jp/mob/news/diarKiji.php?cd=VIDEO&site=DIVE"
+        }
+      ]
+    },
+    {
+      "id": "revive",
+      "title": "REVIVE+",
+      "date": "2026-02-23",
+      "digitalDate": "2026-02-23",
+      "era": "ive",
+      "market": "kr",
+      "type": "album",
+      "summary": "从团体歌曲一路听到成员 Solo，别错过元英的《8》。",
+      "aliases": [
+        "REVIVE+",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "REVIVE+",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "revive.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/54/fd/9d54fd06-fc19-c30c-c9ec-3fcc20eab4a3/199806315972.jpg/600x600bb.jpg",
+        "credit": "℗ 2026 Starship Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "BLACKHOLE",
+          "duration": 194,
+          "url": "https://music.apple.com/us/album/blackhole/1873882195?i=1873882200"
+        },
+        {
+          "number": 2,
+          "title": "BANG BANG",
+          "duration": 178,
+          "url": "https://music.apple.com/us/album/bang-bang/1873882195?i=1873882204"
+        },
+        {
+          "number": 3,
+          "title": "Hush",
+          "duration": 167,
+          "url": "https://music.apple.com/us/album/hush/1873882195?i=1873882207"
+        },
+        {
+          "number": 4,
+          "title": "Stuck In Your Head",
+          "duration": 167,
+          "url": "https://music.apple.com/us/album/stuck-in-your-head/1873882195?i=1873882209"
+        },
+        {
+          "number": 5,
+          "title": "Fireworks",
+          "duration": 180,
+          "url": "https://music.apple.com/us/album/fireworks/1873882195?i=1873882212"
+        },
+        {
+          "number": 6,
+          "title": "HOT COFFEE",
+          "duration": 168,
+          "url": "https://music.apple.com/us/album/hot-coffee/1873882195?i=1873882214"
+        },
+        {
+          "number": 7,
+          "title": "8 (JANGWONYOUNG Solo)",
+          "duration": 171,
+          "url": "https://music.apple.com/us/album/8-jangwonyoung-solo/1873882195?i=1873882427"
+        },
+        {
+          "number": 8,
+          "title": "Odd (GAEUL Solo)",
+          "duration": 170,
+          "url": "https://music.apple.com/us/album/odd-gaeul-solo/1873882195?i=1873882428"
+        },
+        {
+          "number": 9,
+          "title": "Super ICY (LEESEO Solo)",
+          "duration": 170,
+          "url": "https://music.apple.com/us/album/super-icy-leeseo-solo/1873882195?i=1873882442"
+        },
+        {
+          "number": 10,
+          "title": "Unreal (LIZ Solo)",
+          "duration": 162,
+          "url": "https://music.apple.com/us/album/unreal-liz-solo/1873882195?i=1873882447"
+        },
+        {
+          "number": 11,
+          "title": "In Your Heart (REI Solo)",
+          "duration": 123,
+          "url": "https://music.apple.com/us/album/in-your-heart-rei-solo/1873882195?i=1873882449"
+        },
+        {
+          "number": 12,
+          "title": "Force (ANYUJIN Solo)",
+          "duration": 204,
+          "url": "https://music.apple.com/us/album/force-anyujin-solo/1873882195?i=1873882450"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "BLACKHOLE",
+        "BANG BANG"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/revive/1873882195"
+        }
+      ],
+      "videos": [
+        {
+          "title": "BLACKHOLE",
+          "url": "https://www.youtube.com/watch?v=1Lmy7qwmSMc",
+          "publisher": "STARSHIP"
+        },
+        {
+          "title": "BANG BANG",
+          "url": "https://www.youtube.com/watch?v=9qkpcLK422o",
+          "publisher": "STARSHIP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/revive/1873882195"
+        },
+        {
+          "label": "IVE 日本官方 · MV 目录",
+          "url": "https://ive-official.jp/mob/news/diarKiji.php?cd=VIDEO&site=DIVE"
+        }
+      ]
+    },
+    {
+      "id": "lucid-dream",
+      "title": "LUCID DREAM",
+      "date": "2026-05-27",
+      "digitalDate": "2026-05-27",
+      "era": "ive",
+      "market": "jp",
+      "type": "ep",
+      "summary": "从清醒梦的名字出发，沿着《Fashion》和《JIGSAW》继续听下去。",
+      "aliases": [
+        "LUCID DREAM",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "LUCID DREAM - EP",
+      "note": "曲目与封面采用所链接的 Apple Music 数字版；实体不同版本的配置可能不同。",
+      "cover": {
+        "asset": "lucid-dream.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/ae/02/e4ae02a1-cbf8-217b-fbba-315d6f9d2db5/4547366823929.jpg/600x600bb.jpg",
+        "credit": "℗ 2026 Starship Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "LUCID DREAM",
+          "duration": 207,
+          "url": "https://music.apple.com/us/album/lucid-dream/6768866474?i=6768866475"
+        },
+        {
+          "number": 2,
+          "title": "Fashion",
+          "duration": 128,
+          "url": "https://music.apple.com/us/album/fashion/6768866474?i=6768866477"
+        },
+        {
+          "number": 3,
+          "title": "JIGSAW",
+          "duration": 160,
+          "url": "https://music.apple.com/us/album/jigsaw/6768866474?i=6768866478"
+        },
+        {
+          "number": 4,
+          "title": "REBEL HEART -Japanese version-",
+          "duration": 188,
+          "url": "https://music.apple.com/us/album/rebel-heart-japanese-version/6768866474?i=6768866479"
+        },
+        {
+          "number": 5,
+          "title": "ATTITUDE -Japanese version-",
+          "duration": 195,
+          "url": "https://music.apple.com/us/album/attitude-japanese-version/6768866474?i=6768866480"
+        },
+        {
+          "number": 6,
+          "title": "Thank U -Japanese version-",
+          "duration": 191,
+          "url": "https://music.apple.com/us/album/thank-u-japanese-version/6768866474?i=6768866484"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "LUCID DREAM"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/lucid-dream-ep/6768866474"
+        }
+      ],
+      "videos": [
+        {
+          "title": "LUCID DREAM",
+          "url": "https://www.youtube.com/watch?v=trlOTS4nKO4",
+          "publisher": "Sony Music (Japan)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/lucid-dream-ep/6768866474"
+        },
+        {
+          "label": "IVE 日本官方 · MV 目录",
+          "url": "https://ive-official.jp/mob/news/diarKiji.php?cd=VIDEO&site=DIVE"
+        }
+      ]
+    },
+    {
+      "id": "looks-can-kill",
+      "title": "Looks Can Kill",
+      "date": "2026-10-26",
+      "digitalDate": "2026-10-26",
+      "era": "ive",
+      "market": "kr",
+      "type": "ep",
+      "summary": "最新的一页已经打开。先听主打，再慢慢发现另外五首歌。",
+      "aliases": [
+        "Looks Can Kill",
+        "张元英",
+        "Wonyoung",
+        "장원영"
+      ],
+      "edition": "Looks Can Kill - EP",
+      "note": "曲目采用 Apple Music 标准数字版 6 首；其他地区或版本的附加内容不混入此曲序。",
+      "cover": {
+        "asset": "looks-can-kill.jpg",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/f2/e8/17f2e856-42c8-7d3e-3475-0242b2d9286a/711641004394.jpg/600x600bb.jpg",
+        "credit": "℗ 2026 Starship Entertainment"
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Looks Can Kill",
+          "duration": 196,
+          "url": "https://music.apple.com/us/album/looks-can-kill/6823675363?i=6823675372"
+        },
+        {
+          "number": 2,
+          "title": "Mirror Mirror",
+          "duration": 200,
+          "url": "https://music.apple.com/us/album/mirror-mirror/6823675363?i=6823675374"
+        },
+        {
+          "number": 3,
+          "title": "SNAKESKIN",
+          "duration": 201,
+          "url": "https://music.apple.com/us/album/snakeskin/6823675363?i=6823675560"
+        },
+        {
+          "number": 4,
+          "title": "CRUMBS",
+          "duration": 188,
+          "url": "https://music.apple.com/us/album/crumbs/6823675363?i=6823675567"
+        },
+        {
+          "number": 5,
+          "title": "Girls Girls Girls",
+          "duration": 163,
+          "url": "https://music.apple.com/us/album/girls-girls-girls/6823675363?i=6823675662"
+        },
+        {
+          "number": 6,
+          "title": "Glow Motion",
+          "duration": 182,
+          "url": "https://music.apple.com/us/album/glow-motion/6823675363?i=6823675713"
+        }
+      ],
+      "alternateEditions": [],
+      "highlights": [
+        "Looks Can Kill"
+      ],
+      "listen": [
+        {
+          "label": "Apple Music · 整张收听",
+          "url": "https://music.apple.com/us/album/looks-can-kill-ep/6823675363"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Looks Can Kill",
+          "url": "https://www.youtube.com/watch?v=rsNhWkC4neE",
+          "publisher": "STARSHIP"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Apple Music · 数字版封面、曲目与日期",
+          "url": "https://music.apple.com/us/album/looks-can-kill-ep/6823675363"
+        },
+        {
+          "label": "Sony Music · 韩国发行公告",
+          "url": "https://www.sonymusic.co.jp/artist/IVE/info/587822"
+        },
+        {
+          "label": "IVE 日本官方 · MV 目录",
+          "url": "https://ive-official.jp/mob/news/diarKiji.php?cd=VIDEO&site=DIVE"
+        }
+      ]
+    }
+  ]
+}

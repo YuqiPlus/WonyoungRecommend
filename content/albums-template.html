@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#fbf7f2">
+  <meta name="description" content="从 IZ*ONE 到 IVE 的韩日专辑档案：专辑封面、发行日期、完整数字版曲目、官方收听与 MV，连同元英小卡一起收藏。">
+  <meta property="og:title" content="专辑档案 · Dear Wonyoung"><meta property="og:description" content="把每一次回归，听成一段回忆。从 IZ*ONE 到 IVE 的音乐相簿。"><meta property="og:type" content="website"><meta property="og:url" content="https://20040831.xyz/albums.html">
+  <link rel="canonical" href="https://20040831.xyz/albums.html"><link rel="icon" type="image/svg+xml" href="./assets/favicon.svg"><link rel="stylesheet" href="./styles.css"><link rel="stylesheet" href="./albums.css"><script type="module" src="./albums.js"></script>
+  <title>专辑档案 · Dear Wonyoung</title>
+</head>
+<body class="albums-page">
+  <a class="skip-link" href="#albums-main">跳到专辑档案</a>
+  <header class="header"><div class="header-inner wrap"><a class="brand" href="./" aria-label="Dear Wonyoung 首页"><span class="brand-flower" aria-hidden="true">✳</span><span>DEAR<br>WONYOUNG<span class="brand-dot">.</span></span></a><nav aria-label="主导航"><a href="./#about">初次见面</a><a href="./#watch">必看清单</a><a href="./timeline.html">成长时间线</a><a href="./albums.html" aria-current="page">专辑档案</a><a href="./photocards.html">小卡图鉴</a><a href="./brands.html">品牌合作</a><a href="./#guestbook">留言板</a><a href="./search.html">全站搜索</a></nav></div></header>
+  <main id="albums-main">
+    <section class="albums-hero wrap" aria-labelledby="albums-title"><div><p class="eyebrow">DEAR WONYOUNG / THE DISCOGRAPHY</p><h1 id="albums-title">每一次回归，<br>都是<em>一段回忆。</em></h1><p class="albums-intro">从 IZ*ONE 的第一抹玫瑰色，到 IVE 的崭新一页。<br>把熟悉的旋律、封面和舞台，收进同一本音乐相簿。</p><dl class="albums-stats"><div><dt>韩日正式发行</dt><dd>{{TOTAL}}<small> 张</small></dd></div><div><dt>IZ*ONE</dt><dd>{{IZONE}}<small> 张</small></dd></div><div><dt>IVE</dt><dd>{{IVE}}<small> 张</small></dd></div></dl><a class="text-link" href="#album-collection">从一张专辑开始听 ↓</a></div><div class="albums-hero-art" aria-hidden="true"><div class="albums-cover-quilt">{{ART}}</div><span>OUR LITTLE MUSIC ALBUM / 2018 — 2026</span></div></section>
+    <aside class="albums-scope wrap" aria-label="专辑收录范围"><span aria-hidden="true">♫</span><div><p><strong>一张封面，一次正式发行。</strong> 收录 IZ*ONE 与 IVE 的韩日正规专辑、迷你专辑和实体单曲专辑；先行曲归入所属专辑，数字单曲、合作曲、OST、混音及演唱会音源暂不计入本册。</p><p>封面与曲目采用注明版本的数字版，实体版本可能有附加曲；日专版本差异另作说明。更新于 {{UPDATED}}。收听与 MV 打开原平台，部分内容受地区或平台服务限制。</p></div></aside>
+    <section class="album-collection wrap" id="album-collection" aria-label="浏览专辑">
+      <form id="albums-controls" class="albums-controls" role="search" hidden><label class="albums-query" for="albums-q"><span>找一张专辑，或一首歌</span><input id="albums-q" type="search" maxlength="120" placeholder="试试 LOVE DIVE、FIESTA 或 8 JANGWONYOUNG" autocomplete="off"></label><div class="albums-filters"><label>活动阶段<select id="albums-era"><option value="all">IZ*ONE ＋ IVE</option><option value="izone">IZ*ONE</option><option value="ive">IVE</option></select></label><label>发行地区<select id="albums-market"><option value="all">韩专 ＋ 日专</option><option value="kr">韩专</option><option value="jp">日专</option></select></label><label>发行类型<select id="albums-type"><option value="all">全部类型</option><option value="album">正规专辑</option><option value="ep">迷你专辑 / EP</option><option value="single">单曲专辑</option></select></label><label>发行年份<select id="albums-year"><option value="all">全部年份</option>{{YEARS}}</select></label><label>排列顺序<select id="albums-order"><option value="newest">从最近听起</option><option value="oldest">从最初听起</option></select></label></div></form>
+      <div class="albums-results"><p id="albums-count" role="status" aria-live="polite">{{TOTAL}} 张专辑，一段可以慢慢听的旅程。</p><button type="button" class="text-link" id="albums-reset" hidden>清除筛选 ↻</button></div>
+      <noscript><p class="albums-noscript">全部封面、曲目、MV 与来源都在下方。启用 JavaScript 后，可按专辑名、歌曲名、活动阶段、地区和年份筛选。</p></noscript>
+      <div class="albums-grid" id="albums-grid">{{ALBUMS}}</div><div class="albums-empty" id="albums-empty" hidden><span aria-hidden="true">♫</span><h2>这段旋律，还在下一页。</h2><p>试试更短的歌名，或放宽筛选条件。</p><button type="button" class="button secondary" id="albums-empty-reset">翻看全部专辑 ↗</button></div>
+    </section>
+    <section class="albums-afterword wrap"><p class="eyebrow">ONE MORE SONG, ONE MORE MEMORY</p><h2>喜欢的那首歌，<br>也藏着那一年的她。</h2><p>听完一张专辑，再回到那一年的舞台与日常。<br>想补充发行资料或纠正曲目，欢迎在<a href="./#guestbook">留言板</a>留下标题与公开来源。</p><div><a class="text-link" href="./timeline.html">沿着成长时间线继续看 ↗</a><a class="text-link" href="./photocards.html">去小卡图鉴收藏这次回归 ↗</a></div></section>
+  </main>
+  <footer class="footer wrap"><div class="footer-main"><a class="footer-brand" href="./">Dear Wonyoung<span>♡</span></a><p>因为喜欢，所以分享。<br>本站由粉丝独立制作，与艺人及所属公司无官方关联。</p><a class="back-top" href="#albums-main">回到顶部 ↑</a></div><div class="footer-bottom"><span>20040831.xyz</span><span>A LITTLE ARCHIVE, A LOT OF LOVE.</span><span>WITH LOVE, ALWAYS.</span></div></footer>
+  <script type="application/json" id="albums-data">{{DATA}}</script>
+</body>
+</html>

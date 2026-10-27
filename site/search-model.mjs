@@ -1,4 +1,4 @@
-export const searchTypes = { picks: '入坑推荐', timeline: '成长时间线', photocards: '小卡图鉴', brands: '品牌合作' };
+export const searchTypes = { picks: '入坑推荐', timeline: '成长时间线', albums: '专辑档案', photocards: '小卡图鉴', brands: '品牌合作' };
 
 export function normalizeSearch(value) {
   return String(value).normalize('NFKC').normalize('NFD').replace(/\p{M}/gu, '').toLowerCase()

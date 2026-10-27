@@ -5,14 +5,14 @@ import { buildCatalog, documentsFor, trackRevisions, renderDiscovery, validateCa
 import { prepareSearch, searchDocuments, normalizeSearch } from '../../site/search-model.mjs';
 
 const read = path => readFile(new URL(`../../${path}`, import.meta.url), 'utf8');
-const [home, timeline, photocards, brands, search, siteUpdates] = await Promise.all([
-  read('content/home-template.html'), read('content/timeline.json'), read('content/photocards.json'), read('content/brands.json'), read('content/search-template.html'), read('content/site-updates.json')
+const [home, timeline, photocards, brands, search, siteUpdates, albums] = await Promise.all([
+  read('content/home-template.html'), read('content/timeline.json'), read('content/photocards.json'), read('content/brands.json'), read('content/search-template.html'), read('content/site-updates.json'), read('content/albums.json')
 ]);
-const catalog = await buildCatalog({ picks: home, timeline, photocards, brands }, JSON.parse(siteUpdates));
+const catalog = await buildCatalog({ picks: home, timeline, albums, photocards, brands }, JSON.parse(siteUpdates));
 const prepared = prepareSearch(catalog.documents);
 
-test('all four catalogs are searchable and dates preserve their actual meaning', () => {
-  const counts = { picks: 6, timeline: JSON.parse(timeline).entries.length, photocards: JSON.parse(photocards).albums.length, brands: JSON.parse(brands).brands.reduce((sum, brand) => sum + brand.events.length, 0) };
+test('all five catalogs are searchable and dates preserve their actual meaning', () => {
+  const counts = { picks: 6, timeline: JSON.parse(timeline).entries.length, albums: JSON.parse(albums).albums.length, photocards: JSON.parse(photocards).albums.length, brands: JSON.parse(brands).brands.reduce((sum, brand) => sum + brand.events.length, 0) };
   for (const [type, total] of Object.entries(counts)) assert.equal(catalog.documents.filter(doc => doc.type === type).length, total);
   for (const doc of catalog.documents) assert.ok(doc.url.startsWith('./'));
   const planned = catalog.documents.find(doc => doc.id === 'photocards:looks-can-kill');
@@ -24,8 +24,8 @@ test('all four catalogs are searchable and dates preserve their actual meaning',
 });
 
 test('search handles exact titles, aliases, accents, Korean and compound Chinese queries', () => {
-  assert.equal(searchDocuments(prepared, { q: 'IVE SWITCH' }).results[0].id, 'photocards:ive-switch');
-  assert.equal(searchDocuments(prepared, { q: 'wave' }).results[0].id, 'photocards:wave');
+  assert.equal(searchDocuments(prepared, { q: 'IVE SWITCH', type: 'albums' }).results[0].id, 'albums:ive-switch');
+  assert.equal(searchDocuments(prepared, { q: 'wave', type: 'photocards' }).results[0].id, 'photocards:wave');
   assert.ok(searchDocuments(prepared, { q: 'Kerastase' }).results.some(doc => doc.title.includes('KÉRASTASE')));
   assert.ok(searchDocuments(prepared, { q: 'IZONE', type: 'photocards' }).results.length > 0);
   assert.ok(searchDocuments(prepared, { q: '살롱드립' }).results.length > 0);
@@ -34,6 +34,15 @@ test('search handles exact titles, aliases, accents, Korean and compound Chinese
   assert.ok(subtitles.every(doc => doc.keywords.includes('Bilibili') && doc.keywords.includes('中字')));
   assert.ok(searchDocuments(prepared, { q: '2024综艺' }).results.every(doc => doc.year === '2024'));
   assert.equal(normalizeSearch('I’VE / IZ*ONE'), normalizeSearch('IVE IZONE'));
+});
+
+test('album tracks are searchable and the new collection appears in dated homepage updates', () => {
+  assert.deepEqual(searchDocuments(prepared, { q: 'JANGWONYOUNG Solo', type: 'albums' }).results.map(doc => doc.id), ['albums:revive']);
+  const debut = catalog.documents.find(doc => doc.id === 'albums:color-iz');
+  assert.equal(debut.date, '2018-10-29');
+  assert.ok(debut.addedAt >= '2026-10-27');
+  assert.equal(new URL(debut.url, 'https://20040831.xyz/').hash, '#color-iz');
+  assert.ok(catalog.updates.some(update => update.type === 'albums' && update.title.includes('新增 24 条')));
 });
 
 test('combined filters, facet counts and sorting are consistent and deterministic', () => {

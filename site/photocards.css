@@ -136,3 +136,5 @@
   .pc-viewer-scroll { padding:8px; max-height:55dvh; }
 }
 @media (max-width:360px) { .pc-hero-stats { gap:18px; } .pc-hero-stats strong { font-size:24px; } .pc-hero h1 { font-size:39px; } .pc-board { height:300px; } .pc-card-body { padding:18px; } .pc-card-stats dt { font-size:9px; } }
+.pc-album-listen { margin-block:12px; font-size:10px; color:var(--berry); }
+.pc-album-listen a { text-decoration:underline; text-underline-offset:4px; }

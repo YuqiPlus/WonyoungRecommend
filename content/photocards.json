@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-27",
   "boards": {
     "izone": {
       "asset": "izone-to-wave-oopsyhyuck.jpg",
@@ -1693,7 +1693,7 @@
       "date": "2026-10-26",
       "era": "ive",
       "market": "kr",
-      "status": "announced",
+      "status": "released",
       "board": null,
       "focus": 50,
       "rows": [
@@ -1728,8 +1728,8 @@
           "note": ""
         }
       ],
-      "summary": "已官宣的下一次回归，先保留版本和预售来源。",
-      "note": "截至 2026.10.15 尚未正式发售；已知随机卡池不等于已确认的元英卡面，款数暂不计入。",
+      "summary": "新一页回归已经发行，元英个人图板与版本款数继续核对。",
+      "note": "已于 2026.10.26 正式发行；随机卡池不等于已确认的元英卡面，个人图板与款数仍待核实。",
       "tags": [
         "Looks Can Kill",
         "张元英",
@@ -1744,6 +1744,10 @@
         {
           "label": "MAKESTAR · 发售日、版本与预售说明",
           "url": "https://www.makestar.com/product/20892"
+        },
+        {
+          "label": "Sony Music · 韩国发行日期公告",
+          "url": "https://www.sonymusic.co.jp/artist/IVE/info/587822"
         }
       ]
     }
